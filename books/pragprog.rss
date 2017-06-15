@@ -125,11 +125,11 @@
 
 ---
 
-feed.format:     rss 2.0
-feed.title:      Pragmatic Bookshelf
-feed.url:        https://pragprog.com/
-feed.summary:    Up-to-date information about the Pragmatic Bookshelf
-feed.published:  >>> DateTime.new( 2017, 5, 27, 17, 18, 55 )
+feed.format:      rss 2.0
+feed.title:       Pragmatic Bookshelf
+feed.url:         https://pragprog.com/
+feed.description: Up-to-date information about the Pragmatic Bookshelf
+feed.published:   >>> DateTime.new( 2017, 5, 27, 17, 18, 55 )
 
 
 feed.items.size:    >>> 10
@@ -137,12 +137,12 @@ feed.items.size:    >>> 10
 feed.items[0].title:     Python Testing with pytest
 feed.items[0].url:       http://pragprog.com/news/python-testing-with-pytest
 feed.items[0].guid:      http://pragprog.com/news/python-testing-with-pytest?3639225
-feed.items[0].updated:   >>> DateTime.new( 2017, 5, 23, 18, 35 )
+feed.items[0].published: >>> DateTime.new( 2017, 5, 23, 18, 35 )
 
 feed.items[1].title:     Agile Web Development with Rails 5.1, Upgrade Details
 feed.items[1].url:       http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details
 feed.items[1].guid:      http://pragprog.com/news/agile-web-development-with-rails-5-1-upgrade-details?3629250
-feed.items[1].updated:   >>> DateTime.new( 2017, 5, 10, 14, 32, 55 )
+feed.items[1].published: >>> DateTime.new( 2017, 5, 10, 14, 32, 55 )
 
 
->>> pp feed.items[0].summary
+>>> pp feed.items[0].description

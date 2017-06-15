@@ -12,9 +12,9 @@ require  'helper'
 class TestFeeds < MiniTest::Test
 
   def test_all
-     ## walk_feeds( '.' )
+     walk_feeds( '.' )
 
-     parse_feeds( './news/guardian*' )
+     ## parse_feeds( './news/guardian*' )
   end  # method test_all
 
 
@@ -56,7 +56,7 @@ def parse_feed( path )
          puts "!!!! test asserts missing in #{path} !!!"
          ##  exit 1
        else
-         assert_feed( text, tests )
+         assert_feed( text, tests, name: path )
        end
 end
 

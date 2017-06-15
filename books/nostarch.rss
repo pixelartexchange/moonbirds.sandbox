@@ -103,10 +103,10 @@
 
 ---
 
-feed.format:     rss 2.0
-feed.title:      No Starch Press - Coming Soon
-feed.url:        https://www.nostarch.com/frontpage_comingsoon
-feed.summary:    Keep an eye on what's coming out down the line.
+feed.format:      rss 2.0
+feed.title:       No Starch Press - Coming Soon
+feed.url:         https://www.nostarch.com/frontpage_comingsoon
+feed.description: Keep an eye on what's coming out down the line.
 
 
 feed.items.size:    >>> 10
@@ -114,12 +114,12 @@ feed.items.size:    >>> 10
 feed.items[0].title:     PoC||GTFO
 feed.items[0].url:       https://www.nostarch.com/gtfo
 feed.items[0].guid:      423 at https://www.nostarch.com
-feed.items[0].updated:   >>> DateTime.new( 2017, 4, 11, 23, 50, 54 )
+feed.items[0].published: >>> DateTime.new( 2017, 4, 11, 23, 50, 54 )
 
 feed.items[1].title:     Coding iPhone Apps for Kids
 feed.items[1].url:       https://www.nostarch.com/iphoneappsforkids
 feed.items[1].guid:      371 at https://www.nostarch.com
-feed.items[1].updated:   >>> DateTime.new( 2016, 3, 11, 19, 7, 21 )
+feed.items[1].published: >>> DateTime.new( 2016, 3, 11, 19, 7, 21 )
 
 
->>> pp feed.items[0].summary
+>>> pp feed.items[0].description

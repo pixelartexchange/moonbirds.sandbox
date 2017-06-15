@@ -43,7 +43,11 @@ end
 module MiniTest
 class Test
 
-  def assert_feed( text, tests )
+  def assert_feed( text, tests, opts={} )
+
+
+    name =  opts[:name] || '<unknown>'
+
 
     feed = FeedParser::Parser.parse( text )
 
@@ -55,12 +59,15 @@ class Test
 
       line = line.strip
 
-
       if line.start_with? '#'
-        next   ## skip comment lines too
-      elsif line.start_with? '>>>'
+        next     ## skip comment lines too
+      end
+
+
+      if line.start_with? '>>>'
         ## for debugging allow "custom" code e.g. >>> pp feed.items[0].summary etc.
         code = line[3..-1].strip
+        msg  = "eval in #{name}: >>> #{code}"
       else
         pos = line.index(':')   ## assume first colon (:) is separator
         expr  = line[0...pos].strip    ## NOTE: do NOT include colon (thus, use tree dots ...)
@@ -71,16 +78,21 @@ class Test
 
         if value.start_with? '>>>'
            value = value[3..-1].strip
-           code="assert_equal #{value}, #{expr}"
-        elsif value.start_with? 'DateTime'         ## todo/fix: remove; use >>> style
-          code="assert_equal #{value}, #{expr}"
+           msg   = "assert in #{name}: >>> #{expr}  ==  #{value}"
+
+          if value == 'nil'
+             code = "assert_nil #{expr}, %{#{msg}}"  ## note: use assert_nil for nils
+          else
+             code = "assert_equal #{value}, #{expr}, %{#{msg}}"
+          end
         else # assume value is a "plain" string
           ## note use %{ } so value can include quotes ('') etc.
-          code="assert_equal %{#{value}}, #{expr}"
+          msg  = %{assert in #{name}: #{expr}  ==  "#{value}"}
+          code = "assert_equal %{#{value}}, #{expr}, %{#{msg}}"
         end
       end
 
-      puts "eval #{code}"
+      puts msg
       eval( code )
     end  # each line
   end

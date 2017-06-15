@@ -1939,12 +1939,13 @@
     </item>
   </channel>
 </rss>
+
 ---
+
 feed.format:      rss 2.0
 feed.title:       World news | The Guardian
 feed.url:         https://www.theguardian.com/world
-## todo: add description alias for summary !!!
-feed.summary: Latest World news news, comment and analysis from the Guardian, the world's leading liberal voice
+feed.description: Latest World news news, comment and analysis from the Guardian, the world's leading liberal voice
 feed.published:   >>> DateTime.new( 2017, 6, 14, 19, 22 ,49 )
 
 
@@ -1952,22 +1953,46 @@ feed.items[0].title: House majority whip Steve Scalise among five injured in Vir
 feed.items[0].url:   https://www.theguardian.com/us-news/2017/jun/14/house-majority-whip-steve-scalise-shot-congressional-baseball-practice
 
 
-## todo: change tags to categories  - add alias !!!
-feed.items[0].tags.size:       >>> 5
-feed.items[0].tags[0].title:   US Congress
-feed.items[0].tags[0].domain:  https://www.theguardian.com/us-news/us-congress
-feed.items[0].tags[1].title:   Virginia
-feed.items[0].tags[1].domain:  https://www.theguardian.com/us-news/virginia
-feed.items[0].tags[2].title:   US news
-feed.items[0].tags[2].domain:  https://www.theguardian.com/us-news/us-news
-feed.items[0].tags[3].title:   US crime
-feed.items[0].tags[3].domain:  https://www.theguardian.com/us-news/us-crime
-feed.items[0].tags[4].title:   Republicans
-feed.items[0].tags[4].domain:  https://www.theguardian.com/us-news/republicans
+feed.items[0].categories.size:       >>> 5
+feed.items[0].categories[0].title:   US Congress
+feed.items[0].categories[0].domain:  https://www.theguardian.com/us-news/us-congress
+feed.items[0].categories[1].title:   Virginia
+feed.items[0].categories[1].domain:  https://www.theguardian.com/us-news/virginia
+feed.items[0].categories[2].title:   US news
+feed.items[0].categories[2].domain:  https://www.theguardian.com/us-news/us-news
+feed.items[0].categories[3].title:   US crime
+feed.items[0].categories[3].domain:  https://www.theguardian.com/us-news/us-crime
+feed.items[0].categories[4].title:   Republicans
+feed.items[0].categories[4].domain:  https://www.theguardian.com/us-news/republicans
 
 
-## todo: change updated to published (map pubDate to published - why? why not?)
-feed.items[0].updated:     >>> DateTime.new( 2017, 6, 14, 17, 52, 52 )
+feed.items[0].published:   >>> DateTime.new( 2017, 6, 14, 17, 52, 52 )
 feed.items[0].guid:        https://www.theguardian.com/us-news/2017/jun/14/house-majority-whip-steve-scalise-shot-congressional-baseball-practice
 
 feed.items[0].author.text: David Smith in Alexandria, Virginia, and Adam Gabbatt and Jamiles Lartey  in New York
+
+
+
+feed.items[1].title:   'Staggering' loss of civilian life from US-led airstrikes in Raqqa, says UN
+feed.items[1].url:     https://www.theguardian.com/world/2017/jun/14/staggering-civilian-deaths-from-us-led-airstrikes-in-raqqa-says-un
+
+feed.items[1].description:  <p>War crimes investigators say US-backed campaign to reclaim Syrian city from Islamic State has led to at least 300 deaths </p><p>UN war crimes investigators have denounced a “staggering loss of civilian life” caused by the US-backed campaign to reclaim Raqqa, the de facto capital of Islamic State.<br></p><p>The independent commission of inquiry tasked with investigating violations of international law, war crimes and crimes against humanity in Syria said the intensification of airstrikes by the US-led coalition had led to the deaths of at least 300 civilians in the city.</p> <a href="https://www.theguardian.com/world/2017/jun/14/staggering-civilian-deaths-from-us-led-airstrikes-in-raqqa-says-un">Continue reading...</a>
+
+feed.items[1].categories.size:       >>> 6
+feed.items[1].categories[0].title:   Syria
+feed.items[1].categories[0].domain:  https://www.theguardian.com/world/syria
+feed.items[1].categories[1].title:   Islamic State
+feed.items[1].categories[1].domain:  https://www.theguardian.com/world/isis
+feed.items[1].categories[2].title:   Middle East and North Africa
+feed.items[1].categories[2].domain:  https://www.theguardian.com/world/middleeast
+feed.items[1].categories[3].title:   World news
+feed.items[1].categories[3].domain:  https://www.theguardian.com/world/world
+feed.items[1].categories[4].title:   US foreign policy
+feed.items[1].categories[4].domain:  https://www.theguardian.com/us-news/us-foreign-policy
+feed.items[1].categories[5].title:   US news
+feed.items[1].categories[5].domain:  https://www.theguardian.com/us-news/us-news
+
+feed.items[1].published:   >>> DateTime.new( 2017, 6, 14, 13, 14, 16 )
+feed.items[1].guid:        https://www.theguardian.com/world/2017/jun/14/staggering-civilian-deaths-from-us-led-airstrikes-in-raqqa-says-un
+
+feed.items[1].author.text: Kareem Shaheen in Istanbul
