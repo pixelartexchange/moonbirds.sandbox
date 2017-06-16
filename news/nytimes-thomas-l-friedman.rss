@@ -78,3 +78,29 @@
     </item>
   </channel>
 </rss>
+
+---
+
+feed.format:      rss 2.0
+feed.title:       Thomas L. Friedman
+feed.url:         https://www.nytimes.com/column/thomas-l-friedman
+feed.description: Thomas L. Friedman, a New York Times Op-Ed columnist, writes about foreign affairs, globalization and technology.
+
+feed.items[0].title: A Road Trip Through Rusting and Rising America
+feed.items[0].url:   https://www.nytimes.com/2017/05/24/opinion/rusting-and-rising-america.html
+feed.items[0].description: [[
+  The comeback of distressed and lost communities is the story of Bill Clinton’s America, not Donald Trump’s. ]]
+feed.items[0].author.text: By THOMAS L. FRIEDMAN
+feed.items[0].published:   >>> DateTime.new( 2017, 5, 24, 3, 21, 8, '-5' ).utc
+
+feed.items[1].title:  It’s Chicken or Fish
+feed.items[1].url:    https://www.nytimes.com/2017/05/16/opinion/trump-republicans-2018-elections.html
+feed.items[1].description: [[
+  Elected Republicans won’t stand up to Trump’s abuse of power,
+  like his asking James Comey to halt the Flynn-Russia inquiry. So now you have a choice. ]]
+feed.items[1].author.text: By THOMAS L. FRIEDMAN
+feed.items[1].published:   >>> DateTime.new( 2017, 5, 16, 19, 41, 47, '-5' ).utc
+
+feed.items[2].title:       Owning Your Own Future
+feed.items[2].url:         https://www.nytimes.com/2017/05/10/opinion/owning-your-own-future.html
+feed.items[2].description: Stop learning and you could find yourself without a job.

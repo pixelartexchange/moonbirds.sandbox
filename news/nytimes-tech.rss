@@ -651,3 +651,35 @@
     </item>
   </channel>
 </rss>
+
+---
+
+feed.format: rss 2.0
+feed.title:  NYT > Technology
+feed.url:    https://www.nytimes.com/section/technology?partner=rss&emc=rss
+feed.updated: >>> DateTime.new( 2017, 5, 29, 18, 42, 13 )
+
+##  todo: how to check for empty description - use empty string (or use nil) ???
+## <description/>
+>>> pp feed.description
+
+
+feed.items[0].title: Hackers Hide Cyberattacks in Social Media Posts
+feed.items[0].url:   https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html?partner=rss&emc=rss
+feed.items[0].guid:  https://www.nytimes.com/2017/05/28/technology/hackers-hide-cyberattacks-in-social-media-posts.html
+feed.items[0].description: A recent attack on the accounts of Defense Department employees suggests how easily people can be duped into clicking on dangerous links.
+feed.items[0].author.text: SHEERA FRENKEL
+feed.items[0].published:   >>> DateTime.new( 2017, 5, 28, 19, 0, 1 )
+
+feed.items[0].categories.size: >>> 7
+feed.items[0].categories[0].title:  Social Media
+feed.items[0].categories[0].domain: http://www.nytimes.com/namespaces/keywords/des
+feed.items[0].categories[1].title:  Computers and the Internet
+feed.items[0].categories[2].title:  Cyberwarfare and Defense
+feed.items[0].categories[3].title:  Computer Security
+feed.items[0].categories[4].title:  United States Defense and Military Forces
+feed.items[0].categories[5].title:  Defense Department
+feed.items[0].categories[6].title:  Twitter
+
+feed.items[1].title:  The Future of European Transit: Driverless and Utilitarian
+feed.items[1].url:    https://www.nytimes.com/2017/05/28/technology/the-future-of-european-transit-driverless-and-utilitarian.html?partner=rss&emc=rss

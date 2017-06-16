@@ -8,6 +8,10 @@ require 'textutils'
 #  (not the source in ../feedparser/lib)
 require 'feedparser'
 
+# note: add microformats support (optional)
+require 'microformats'
+
+
 
 require 'minitest/autorun'
 
@@ -43,6 +47,14 @@ end
 module MiniTest
 class Test
 
+
+  ## note:
+  ##   regex excape  bracket: [ to \[
+  ##   \\ needs to get escaped twice e.g. (\\ becomes \)
+  TXT_BEGIN  = "\\[\\["
+  TXT_END    = "\\]\\]"
+
+
   def assert_feed( text, tests, opts={} )
 
 
@@ -51,18 +63,111 @@ class Test
 
     feed = FeedParser::Parser.parse( text )
 
+    ##################################################
+    ## pass 1: remove blank lines & comment lines
+
+    lines = []
+
     tests.each_line do |line|
-
-      if line =~ /^[ \t]*$/
-        next        ## skip blank lines
-      end
-
       line = line.strip
 
       if line.start_with? '#'
         next     ## skip comment lines too
       end
 
+
+      if line == '__END__'
+        break    ## support end of file marker (skip/ignore all lines after __END__)
+      end
+
+      lines << line
+    end
+
+
+    #########################################
+    ## pass 2: "fold" multi-line items
+    ##  e.g.
+    ##  feed.items[0].description: [[
+    ##     In the United States, the social media giant has been an advocate of equal treatment of all Internet content.
+	  ##     In India, regulators who share that belief have effectively blocked a free Facebook service.
+    ##  ]]
+    ##    becomes =>:
+    ##  feed.items[0].description: In the United States, the social media giant has been an advocate of equal treatment of all Internet content. In India, regulators who share that belief have effectively blocked a free Facebook service.
+    ##
+
+    ##
+    ##  use [[> (instead of just [[)  to mark string as to preserve newlines
+    ##   or [[|  |]] (two brackets with pipe??) or [[[ ]]] (three brackets)  - why? why not?
+    ##  or use python style """ and """" - why? why not?
+
+
+    #######
+    ##  note: preserve blank lines in multi-line "verbatim" items
+    ##
+
+    lines_ii = []
+    buf = ''
+    inside_txt = false
+
+    lines.each do |line|
+
+      if inside_txt == false
+
+        if line =~ /#{TXT_BEGIN}/
+          s = StringScanner.new( line )
+          expr  = s.scan_until( /(?=#{TXT_BEGIN})/ )
+          _     = s.scan( /#{TXT_BEGIN}/ )
+          value = s.rest
+
+          buf = ''   # reset
+          buf << expr.strip    # add expresion before TXT_BEGIN
+
+          if value.nil? || value.strip.empty?
+            # add nothing ;-)
+          else
+            buf << ' '
+            buf << value.strip
+          end
+          inside_txt = true
+        else
+           if line =~ /^[ \t]*$/
+             next        ## skip blank lines (NOT in "verbatim" multi-line string blocks)
+           end
+
+           lines_ii << line    # copy as is 1:1
+        end
+      else   ## inside_txt == true
+        if line =~ /#{TXT_END}/
+          s = StringScanner.new( line )
+          value = s.scan_until( /(?=#{TXT_END})/ )
+          _     = s.scan( /#{TXT_END}/ )
+          _     = s.rest
+
+          if value.strip.empty?
+             # add nothing ;-)
+          else
+             buf << ' '
+             buf << value.strip
+          end
+          lines_ii << buf   ## add "folded" line
+          inside_txt = false
+        else
+          if line.strip.empty?
+            ##  empty lines get skipped for now => add support for mode with preserved newlines why? why not???
+          else
+            buf << " "   ## note: newline converter to just one space
+            buf << line.strip
+          end
+        end
+      end
+    end  # each lines
+
+
+
+    #########################################
+    ## pass 3: eval asserts, finally ;-)
+
+    lines_ii.each do |line|
 
       if line.start_with? '>>>'
         ## for debugging allow "custom" code e.g. >>> pp feed.items[0].summary etc.

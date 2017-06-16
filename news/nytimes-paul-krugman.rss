@@ -58,3 +58,22 @@
     <item><title>Living in the Trump Zone</title><link>https://www.nytimes.com/2017/04/28/opinion/living-in-the-trump-zone.html</link><description>We&#8217;re in a place and time where childish petulance drives policy.</description><author>By PAUL KRUGMAN</author><pubDate>Fri, 28 Apr 2017 03:21:22 -0500</pubDate></item>
   </channel>
 </rss>
+
+---
+
+feed.format:      rss 2.0
+feed.title:       Paul Krugman
+feed.url:         https://www.nytimes.com/column/paul-krugman
+feed.description: Paul Krugman, a New York Times Op-Ed columnist, writes about macroeconomics, trade, health care, social policy and politics. In 2008, he received the Nobel Prize in Economics.
+
+feed.items[0].title:       Trump’s Energy, Low and Dirty
+feed.items[0].url:         https://www.nytimes.com/2017/05/29/opinion/trump-g-7-summit-energy.html
+feed.items[0].description: Risking the planet to keep a lie alive.
+feed.items[0].author.text: By PAUL KRUGMAN
+feed.items[0].published:   >>> DateTime.new( 2017, 5, 29, 3, 21, 9, '-5').utc
+
+feed.items[1].title:       It’s All About Trump’s Contempt
+feed.items[1].url:         https://www.nytimes.com/2017/05/26/opinion/trumpcare-cbo-federal-budget.html
+feed.items[1].description: His budget and health plan show he despises his voters. Will they notice?
+feed.items[1].author.text: By PAUL KRUGMAN
+feed.items[1].published:   >>> DateTime.new( 2017, 5, 26, 3, 21,23, '-5').utc

@@ -15,6 +15,7 @@ class TestFeeds < MiniTest::Test
      walk_feeds( '.' )
 
      ## parse_feeds( './news/guardian*' )
+     ## parse_feeds( './news/nytimes-blogs*' )
   end  # method test_all
 
 
@@ -54,7 +55,7 @@ def parse_feed( path )
 
        if tests.nil?
          puts "!!!! test asserts missing in #{path} !!!"
-         ##  exit 1
+         ## exit 1
        else
          assert_feed( text, tests, name: path )
        end

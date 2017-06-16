@@ -181,3 +181,29 @@
 		</item>
 	</channel>
 </rss>
+
+---
+
+feed.format:      rss 2.0
+feed.title:       Innovations
+feed.url:         http://www.washingtonpost.com/blogs/innovations
+feed.description: It's all about what's next
+feed.updated:     >>> DateTime.new( 2017, 5, 27, 2, 36, 48 )
+feed.generator.text: https://wordpress.org/?v=4.7.3
+
+
+## feed.items[0].title:       Google’s AlphaGo beats the world’s best Go player — again
+feed.items[0].url:         http://www.washingtonpost.com/blogs/innovations/wp/2017/05/26/googles-alphago-beats-the-worlds-best-go-player-again/
+feed.items[0].guid:        http://www.washingtonpost.com/blogs/innovations/?p=28106
+feed.items[0].published:   >>> DateTime.new( 2017, 5, 26, 18, 53, 53 )
+feed.items[0].author.text: Hamza Shaban
+
+feed.items[0].categories.size:      >>> 2
+feed.items[0].categories[0].title:  Uncategorized
+feed.items[0].categories[1].title:  newsletter
+
+
+feed.items[1].title:       What the world’s top pizza box collector thinks of Apple’s patented pizza box
+feed.items[1].url:         http://www.washingtonpost.com/blogs/innovations/wp/2017/05/19/what-a-pizza-box-expert-thinks-of-apples-patented-pizza-box/
+feed.items[1].published:   >>> DateTime.new( 2017, 5, 19, 11, 0, 54 )
+feed.items[1].author.text: Herman Wong

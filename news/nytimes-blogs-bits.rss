@@ -331,3 +331,37 @@
 	</item>
 	</channel>
 </rss>
+
+---
+
+feed.format:         rss 2.0
+feed.title:          Bits
+feed.url:            https://bits.blogs.nytimes.com
+feed.description:    Business, Innovation, Technology, Society
+feed.updated:        >>> DateTime.new( 2017, 5, 16, 20, 18, 36 )
+feed.generator.text: http://wordpress.org/?v=4.2.9
+
+feed.items[0].title:       Daily Report: A Net Neutrality Setback for Facebook in India
+feed.items[0].url:         https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/
+feed.items[0].published:   >>> DateTime.new( 2016, 2, 9, 14, 36, 54 )
+feed.items[0].author.text: By Jim Kerstetter
+
+feed.items[0].categories.size:      >>> 7
+feed.items[0].categories[0].title:  Daily Report
+feed.items[0].categories[1].title:  Internet
+feed.items[0].categories[2].title:  Facebook Inc
+feed.items[0].categories[3].title:  India
+feed.items[0].categories[4].title:  Net Neutrality
+feed.items[0].categories[5].title:  Regulation and Deregulation of Industry
+feed.items[0].categories[6].title:  Zuckerberg, Mark E
+
+feed.items[0].guid:        https://bits.blogs.nytimes.com/2016/02/09/daily-report-a-net-neutrality-setback-for-facebook-in-india/
+feed.items[0].description: [[
+   In the United States, the social media giant has been an advocate of equal treatment of all Internet content.
+	 In India, regulators who share that belief have effectively blocked a free Facebook service.
+]]
+
+
+feed.items[1].title:     Zenefits, in a Shake-Up, Appoints New C.E.O., Replacing Parker Conrad
+feed.items[1].url:       https://bits.blogs.nytimes.com/2016/02/08/zenefits-in-a-shake-up-appoints-new-c-e-o-replacing-parker-conrad/
+feed.items[1].published: >>> DateTime.new(  2016, 2, 9, 2, 18, 10 )

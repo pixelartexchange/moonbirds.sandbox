@@ -605,3 +605,36 @@
     </item>
   </channel>
 </rss>
+
+---
+
+feed.format: rss 2.0
+feed.title:  NYT > Home Page
+feed.url:    http://www.nytimes.com/pages/index.html?partner=rss&emc=rss
+
+##  todo: how to check for empty description - use empty string (or use nil) ???
+## <description/>
+>>> pp feed.description
+
+feed.updated:  >>> DateTime.new( 2017, 5, 29, 18, 51, 30 )
+
+
+feed.items[0].title: Jared Kushner’s Role Is Tested as Russia Case Grows
+feed.items[0].url:   https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html?partner=rss&emc=rss
+feed.items[0].guid:  https://www.nytimes.com/2017/05/28/us/kushner-trump-relationship-russia-investigation.html
+feed.items[0].description: [[
+  It is unclear how Jared Kushner’s high-profile woes will affect his hard-won partnership with his father-in-law,
+  perhaps the most stable in an often unstable White House.
+]]
+feed.items[0].author.text: GLENN THRUSH, MAGGIE HABERMAN and SHARON LaFRANIERE
+feed.items[0].published:  >>> DateTime.new( 2017, 5, 29, 1, 23, 57 )
+
+feed.items[0].categories.size:  >>> 5
+feed.items[0].categories[0].title:  Presidents and Presidency (US)
+feed.items[0].categories[0].domain: http://www.nytimes.com/namespaces/keywords/mdes
+feed.items[0].categories[1].title:  Appointments and Executive Changes
+
+
+feed.items[1].title: Reported Talks by Jared Kushner With Russia Would Be ‘Good Thing,’ Trump Official Says
+feed.items[1].url:   https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html?partner=rss&emc=rss
+feed.items[1].guid:  https://www.nytimes.com/2017/05/28/us/politics/trump-returns-to-us-and-to-berating-newsmedia-on-twitter.html
