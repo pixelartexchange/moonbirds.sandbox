@@ -1,0 +1,116 @@
+path,  name,  category
+
+##################
+#  bodies
+
+body/brave-brown.png,
+body/crescent-brown.png,
+body/emperor-brown.png,
+body/guardian-brown.png,
+body/sage-brown.png,
+body/stark-brown.png,
+body/tabby-brown.png,
+body/tranquil-brown.png,
+
+body/brave-red.png,
+body/crescent-red.png,
+body/emperor-red.png,
+body/guardian-red.png,
+body/professor-red.png,
+body/sage-red.png,
+body/tabby-red.png,
+body/tranquil-red.png,
+
+body/emperor-white.png,
+body/guardian-white.png,
+body/professor-white.png,
+body/stark-white.png,
+body/tabby-white.png,
+body/tranquil-white.png,
+
+body/ruby_skeleton.png,
+
+
+######################
+#  beak  (+color)
+
+beak/small-gray.png,
+beak/small-orange.png,
+beak/small-ruby.png,
+
+
+#########################
+#  eyes  (+color)
+
+eyes/open-blue.png,
+eyes/open-green.png,
+eyes/open-purple.png,
+eyes/open-red.png,
+eyes/open-white.png,
+
+eyes/adorable-skeleton.png,
+eyes/angry-skeleton.png,
+eyes/open-skeleton.png,
+eyes/relaxed-skeleton.png,
+
+
+###############
+#  eyewear
+
+eyewear/3d_glasses.png,  3D Glasses
+eyewear/black-rimmed_glasses.png,  Black-Rimmed Glasses
+eyewear/eyepatch.png,
+eyewear/gazelles.png,
+eyewear/jobs_glasses.png,
+eyewear/rose-colored_glasses.png,
+eyewear/sunglasses.png,
+eyewear/visor.png,
+
+
+#######################
+#  headwear
+
+headwear/aviators_cap.png,     Aviator's Cap
+headwear/backwards_hat.png,
+headwear/bandana.png,
+headwear/beanie.png,
+headwear/bow.png,
+headwear/bucket_hat.png,
+headwear/captains_cap.png,   Captain's Cap
+headwear/chromie.png,
+headwear/cowboy_hat.png,
+headwear/crescent_talisman.png,
+headwear/dancing_flame.png,
+headwear/diamond.png,
+headwear/durag.png,
+headwear/fire.png,
+headwear/flowers.png,
+headwear/forest_ranger.png,
+headwear/grail.png,
+headwear/gremplin.png,
+headwear/halo.png,
+headwear/headband.png,
+headwear/headphones.png,
+headwear/heros_cap.png,       Hero's Cap
+headwear/karate_band.png,
+headwear/lincoln.png,
+headwear/mohawk_green.png,  Mohawk (Green)
+headwear/mohawk_pink.png,  Mohawk (Pink)
+headwear/moon_hat.png,
+headwear/pirates_hat.png,    Pirate's Hat
+headwear/queens_crown.png,   Queen's Crown
+headwear/raincloud.png
+headwear/rubber_duck.png
+headwear/skully.png
+headwear/tiara.png
+headwear/tiny_crown.png
+headwear/witchs_hat.png,    Witch's Hat
+headwear/wizards_hat.png,    Wizard's Hat
+
+
+################################
+#  outerwear
+
+outerwear/hoodie.png,        Hoodie
+outerwear/hoodie_down.png,   Hoodie Down
+outerwear/punk_jacket.png,   Punk Jacket
