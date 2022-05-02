@@ -30,6 +30,8 @@ body/tranquil-white.png,
 
 body/ruby_skeleton.png,
 
+body/skeleton.png,
+
 
 ######################
 #  beak  (+color)
@@ -37,6 +39,10 @@ body/ruby_skeleton.png,
 beak/small-gray.png,
 beak/small-orange.png,
 beak/small-ruby.png,
+
+beak/small-skeleton.png,
+beak/short-skeleton.png,
+beak/long-skeleton.png,
 
 
 #########################

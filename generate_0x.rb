@@ -15,10 +15,12 @@ eyes_open_white  = Image.read( "./attributes/eyes/open-white.png" )
 eyes_open_red    = Image.read( "./attributes/eyes/open-red.png" )
 
 _3d_glasses = Image.read( "./attributes/eyewear/3d_glasses.png" )
+visors      = Image.read( "./attributes/eyewear/visor.png" )
 rose_colored_glasses = Image.read( "./attributes/eyewear/rose-colored_glasses.png" )
 gazelles    = Image.read( "./attributes/eyewear/gazelles.png" )
 
-## lincoln     = Image.read( "./attributes/headwear/lincoln.png" )
+lincoln       = Image.read( "./attributes/headwear/lincoln.png" )
+backwards_hat = Image.read( "./attributes/headwear/backwards_hat.png" )
 headband     = Image.read( "./attributes/headwear/headband.png" )
 # wizards_hat  = Image.read( "./attributes/headwear/wizards_hat.png" )
 flowers     = Image.read( "./attributes/headwear/flowers.png" )
@@ -149,6 +151,50 @@ end
 moonbirds.save( "./tmp/moonbirds-bodies_brown.png" )
 moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_brown@3x.png" )
 
+
+
+body_skeleton        = Image.read( "./attributes/body/skeleton.png" )
+beak_small_skeleton  = Image.read( "./attributes/beak/small-skeleton.png" )
+
+bodies_ruby_skeleton = [
+  'eyes/adorable-skeleton',
+  'eyes/open-skeleton',
+  'eyes/angry-skeleton',
+  'eyes/relaxed-skeleton',
+  'eyewear/visor',
+  'eyewear/sunglasses',
+].map { |attribute|
+   moonbird = Image.new( 42, 42 )
+   moonbird.compose!( body_skeleton )
+   moonbird.compose!( beak_small_skeleton )
+   moonbird.compose!( Image.read( "./attributes/#{attribute}.png"))
+   moonbird
+}
+
+moonbirds = ImageComposite.new( 6, 4, width: 42, height: 42 )
+
+(0..3).each do |series|
+  bodies_ruby_skeleton.each do |body|
+    background = if series == 0
+                    0 # use (default) transparent
+                 else
+                     '#FFBF00'  # use golden 0x/extension background
+                 end
+
+    moonbird = Image.new( 42, 42, background )
+
+    moonbird.compose!( body )
+    moonbird.compose!( flowers )       if series == 1
+    moonbird.compose!( lincoln )       if series == 2
+    moonbird.compose!( backwards_hat ) if series == 3
+
+    moonbirds << moonbird
+  end
+end
+
+
+moonbirds.save( "./tmp/moonbirds-bodies_skeleton.png" )
+moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_skeleton@3x.png" )
 
 
 
