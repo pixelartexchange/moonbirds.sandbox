@@ -1,11 +1,11 @@
 #####
 # to run use:
-#   $ ruby proof-moonbirds/generate_1bit.rb
+#   $ ruby moonbirds/generate_1bit.rb
 
 
 require 'pixelart'
 
-logo = Image.read( './proof-moonbirds/36x36/moonbird-1bit-logo.png' )
+logo = Image.read( './moonbirds/36x36/moonbird-1bit-logo.png' )
 
 
 moonbirds = ImageComposite.new( 3, 2,

@@ -27,7 +27,21 @@ Scripts, (token) metadata, images & more
 
 ## Scripts - What's News?
 
-### Philip the Intern Presents: Phree the Phlock - V1, V2, V3, V4 - Left-Looking Moonbirds
+### Moonbirds 1-Bit (Black & White And More) Editions
+
+Example: Moonbird 1-bit variants
+
+![](i/moonbirds-1bit.png)
+
+
+### Fifteen Super Rare Never-Before-Seen Jade Green Legendary Emperor Moonbirds
+
+![](i/moonbirds-jade_green.png)
+
+
+
+
+### Philip the Intern Presents: Phree the Phlock Variants - Left-Looking Moonbirds V1, V2, V3
 
 Example: Top selling golden moonbirds in phree the phlock variants
 

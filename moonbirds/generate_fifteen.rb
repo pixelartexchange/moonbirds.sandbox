@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby proof-moonbirds/generate_fifteen.rb
+#   $ ruby moonbirds/generate_fifteen.rb
 #
 #
 #  generate fifteen new never-before-seen variants
@@ -10,29 +10,29 @@ require 'pixelart'
 
 
 
-base = Image.read( './proof-moonbirds/42x42/7963.png' )
+base = Image.read( './moonbirds/42x42/7963.png' )
 
 moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
 
-['eyewear-3d_glasses',
- 'eyewear-eyepatch',
- 'eyewear-gazelles',
- 'eyewear-jobs_glasses',
- 'eyewear-rose-colored_glasses',
- 'eyewear-sunglasses',
- 'eyewear-visor',
- 'headwear-bow',
- 'headwear-cowboy_hat',
- 'headwear-flowers',
- 'headwear-lincoln',
- 'headwear-moon_hat',
- 'outerwear-hoodie',
- 'outerwear-hoodie_down',
- 'outerwear-punk_jacket',
+['eyewear/3d_glasses',
+ 'eyewear/eyepatch',
+ 'eyewear/gazelles',
+ 'eyewear/jobs_glasses',
+ 'eyewear/rose-colored_glasses',
+ 'eyewear/sunglasses',
+ 'eyewear/visor',
+ 'headwear/bow',
+ 'headwear/cowboy_hat',
+ 'headwear/flowers',
+ 'headwear/lincoln',
+ 'headwear/moon_hat',
+ 'outerwear/hoodie',
+ 'outerwear/hoodie_down',
+ 'outerwear/punk_jacket',
 ].each do |attribute|
   moonbird = Image.new( 42, 42 )
   moonbird.compose!( base )
-  moonbird.compose!( Image.read( "./proof-moonbirds/attributes/#{attribute}.png" ))
+  moonbird.compose!( Image.read( "./moonbirds/attributes/#{attribute}.png" ))
 
   moonbirds << moonbird
 end
