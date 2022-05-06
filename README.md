@@ -29,6 +29,9 @@ Scripts, (token) metadata, images & more
 
 ### Moonbirds 1-Bit (Black & White And More) Editions
 
+Source: [**moonbirds/generate_1bit »**](moonbirds/generate_1bit.rb)
+
+
 Example: Moonbird 1-bit variants
 
 ![](i/moonbirds-1bit.png)
@@ -36,12 +39,17 @@ Example: Moonbird 1-bit variants
 
 ### Fifteen Super Rare Never-Before-Seen Jade Green Legendary Emperor Moonbirds
 
+Source: [**moonbirds/generate_fifteen »**](moonbirds/generate_fifteen.rb)
+
 ![](i/moonbirds-jade_green.png)
 
 
 
 
-### Philip the Intern Presents: Phree the Phlock Variants - Left-Looking Moonbirds V1, V2, V3
+### Philip the Intern Presents: Phree the Phlock Variants - Left-Looking Moonb(h)irds V1, V2, V3
+
+Source: [**moonbirds/phree_the_phlock »**](moonbirds/phree_the_phlock.rb)
+
 
 Example: Top selling golden moonbirds in phree the phlock variants
 
@@ -52,6 +60,9 @@ Example: Top selling golden moonbirds in phree the phlock variants
 
 
 ### Glory To Ukraine! Stop the War! Fuck Vladimir Putin!
+
+Source: [**sandbox/glorytoukraine »**](sandbox/glorytoukraine.rb)
+
 
 Public Service "Stop the War" Announcement:
 
@@ -69,6 +80,34 @@ Example - First nine moonbirds
 Example - Top selling golden moonbirds (plus red glitches)
 
 ![](i/moonbirds-ukraine-golden.png)
+
+
+
+### Do-It-Yourself (DIY) - Yes, You Can - Generate Your Own Super-Rare Never-Before-Seen Moonbirds From Scratch
+
+Source: [**moonbirds/generate_0x »**](moonbirds/generate_0x.rb)
+
+
+Example - Body Red
+
+![](i/moonbirds-bodies_red.png)
+
+
+Example - Body Brown
+
+![](i/moonbirds-bodies_brown.png)
+
+Example - Body White
+
+![](i/moonbirds-bodies_white.png)
+
+Example - Body Ruby Skeleton
+
+![](i/moonbirds-bodies_ruby_skeleton.png)
+
+Example - Skeleton
+
+![](i/moonbirds-bodies_skeleton.png)
 
 
 

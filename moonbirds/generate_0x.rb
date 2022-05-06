@@ -1,33 +1,33 @@
 #####
 # to run use:
-#   $ ruby generate_0x.rb
+#   $ ruby moonbirds/generate_0x.rb
 
 
 require 'pixelart'
 
 
 
-beak_small_orange  = Image.read( "./attributes/beak/small-orange.png" )
-beak_small_gray    = Image.read( "./attributes/beak/small-gray.png" )
+beak_small_orange  = Image.read( "./moonbirds/attributes/beak/small-orange.png" )
+beak_small_gray    = Image.read( "./moonbirds/attributes/beak/small-gray.png" )
 
-eyes_open_blue   = Image.read( "./attributes/eyes/open-blue.png" )
-eyes_open_white  = Image.read( "./attributes/eyes/open-white.png" )
-eyes_open_red    = Image.read( "./attributes/eyes/open-red.png" )
+eyes_open_blue   = Image.read( "./moonbirds/attributes/eyes/open-blue.png" )
+eyes_open_white  = Image.read( "./moonbirds/attributes/eyes/open-white.png" )
+eyes_open_red    = Image.read( "./moonbirds/attributes/eyes/open-red.png" )
 
-_3d_glasses = Image.read( "./attributes/eyewear/3d_glasses.png" )
-visors      = Image.read( "./attributes/eyewear/visor.png" )
-rose_colored_glasses = Image.read( "./attributes/eyewear/rose-colored_glasses.png" )
-gazelles    = Image.read( "./attributes/eyewear/gazelles.png" )
+_3d_glasses = Image.read( "./moonbirds/attributes/eyewear/3d_glasses.png" )
+visors      = Image.read( "./moonbirds/attributes/eyewear/visor.png" )
+rose_colored_glasses = Image.read( "./moonbirds/attributes/eyewear/rose-colored_glasses.png" )
+gazelles    = Image.read( "./moonbirds/attributes/eyewear/gazelles.png" )
 
-lincoln       = Image.read( "./attributes/headwear/lincoln.png" )
-backwards_hat = Image.read( "./attributes/headwear/backwards_hat.png" )
-headband     = Image.read( "./attributes/headwear/headband.png" )
-# wizards_hat  = Image.read( "./attributes/headwear/wizards_hat.png" )
-flowers     = Image.read( "./attributes/headwear/flowers.png" )
-bandana     = Image.read( "./attributes/headwear/bandana.png" )
-bow          = Image.read( "./attributes/headwear/bow.png" )
-queens_crown = Image.read( "./attributes/headwear/queens_crown.png" )
-fire         = Image.read( "./attributes/headwear/fire.png" )
+lincoln       = Image.read( "./moonbirds/attributes/headwear/lincoln.png" )
+backwards_hat = Image.read( "./moonbirds/attributes/headwear/backwards_hat.png" )
+headband     = Image.read( "./moonbirds/attributes/headwear/headband.png" )
+# wizards_hat  = Image.read( "./moonbirds/attributes/headwear/wizards_hat.png" )
+flowers     = Image.read( "./moonbirds/attributes/headwear/flowers.png" )
+bandana     = Image.read( "./moonbirds/attributes/headwear/bandana.png" )
+bow          = Image.read( "./moonbirds/attributes/headwear/bow.png" )
+queens_crown = Image.read( "./moonbirds/attributes/headwear/queens_crown.png" )
+fire         = Image.read( "./moonbirds/attributes/headwear/fire.png" )
 
 
 
@@ -39,7 +39,7 @@ bodies_white = [
   'stark',
   'tabby',
   'tranquil',
-].map { |body| Image.read( "./attributes/body/#{body}-white.png" ) }
+].map { |body| Image.read( "./moonbirds/attributes/body/#{body}-white.png" ) }
 
 
 moonbirds = ImageComposite.new( 6, 4, width: 42, height: 42 )
@@ -83,7 +83,7 @@ bodies_red = [
   'sage',
   'tabby',
   'tranquil',
-].map { |body| Image.read( "./attributes/body/#{body}-red.png" ) }
+].map { |body| Image.read( "./moonbirds/attributes/body/#{body}-red.png" ) }
 
 moonbirds = ImageComposite.new( 8, 3, width: 42, height: 42 )
 
@@ -122,7 +122,7 @@ bodies_brown = [
   'stark',
   'tabby',
   'tranquil',
-].map { |body| Image.read( "./attributes/body/#{body}-brown.png" ) }
+].map { |body| Image.read( "./moonbirds/attributes/body/#{body}-brown.png" ) }
 
 moonbirds = ImageComposite.new( 8, 4, width: 42, height: 42 )
 
@@ -153,8 +153,8 @@ moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_brown@3x.png" )
 
 
 
-body_skeleton        = Image.read( "./attributes/body/skeleton.png" )
-beak_small_skeleton  = Image.read( "./attributes/beak/small-skeleton.png" )
+body_skeleton        = Image.read( "./moonbirds/attributes/body/skeleton.png" )
+beak_small_skeleton  = Image.read( "./moonbirds/attributes/beak/small-skeleton.png" )
 
 bodies_ruby_skeleton = [
   'eyes/adorable-skeleton',
@@ -167,7 +167,7 @@ bodies_ruby_skeleton = [
    moonbird = Image.new( 42, 42 )
    moonbird.compose!( body_skeleton )
    moonbird.compose!( beak_small_skeleton )
-   moonbird.compose!( Image.read( "./attributes/#{attribute}.png"))
+   moonbird.compose!( Image.read( "./moonbirds/attributes/#{attribute}.png"))
    moonbird
 }
 
@@ -198,8 +198,8 @@ moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_skeleton@3x.png" )
 
 
 
-body_ruby_skeleton = Image.read( "./attributes/body/ruby_skeleton.png" )
-beak_small_ruby    = Image.read( "./attributes/beak/small-ruby.png" )
+body_ruby_skeleton = Image.read( "./moonbirds/attributes/body/ruby_skeleton.png" )
+beak_small_ruby    = Image.read( "./moonbirds/attributes/beak/small-ruby.png" )
 
 bodies_ruby_skeleton = [
   'eyes/adorable-skeleton',
@@ -212,7 +212,7 @@ bodies_ruby_skeleton = [
    moonbird = Image.new( 42, 42 )
    moonbird.compose!( body_ruby_skeleton )
    moonbird.compose!( beak_small_ruby )
-   moonbird.compose!( Image.read( "./attributes/#{attribute}.png"))
+   moonbird.compose!( Image.read( "./moonbirds/attributes/#{attribute}.png"))
    moonbird
 }
 
