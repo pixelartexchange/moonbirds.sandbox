@@ -14,14 +14,13 @@ Scripts, (token) metadata, images & more
 ![](i/moonbirds-strip.png)
 
 42x42px Fast Food Moonbirds - 4000 max. <br>
-![](i/fastfood-moonbirds-strip.png)
+![](i/fastfoodmoonbirds-strip.png)
 
 42x42px Fast Food Moonbirds (Vol. 2) - 1000 max. <br>
-![](i/fastfood-moonbirds-ii-strip.png)
+![](i/fastfoodmoonbirds-ii-strip.png)
 
 42x42px Starbirds - 3000 max. <br>
 ![](i/starbirds-strip.png)
-
 
 
 ## Scripts - What's News?
