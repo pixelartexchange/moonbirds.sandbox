@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby proof-moonbirds/phree_the_phlock.rb
+#   $ ruby moonbirds/phree_the_phlock.rb
 
 
 require 'pixelart'
@@ -13,7 +13,7 @@ require 'pixelart'
 
 birds = [5602,7789,8249,
          6610,7205,2018,
-         761,7473,3047].map { |id| Image.read( "./proof-moonbirds/42x42/#{id}.png" ) }
+         761,7473,3047].map { |id| Image.read( "./moonbirds/42x42/#{id}.png" ) }
 
 
 def make_phlock( birds, background: 0, mirror: false )
