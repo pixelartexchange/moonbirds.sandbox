@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby fastfoodmoonbirds-ii/download.rb
+#   $ ruby fastfoodmoonbirds/download.rb
 
 
 require_relative '../artbase'

@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby fastfoodmoonbirds/download.rb
+#   $ ruby fastfoodmoonbirds-ii/download.rb
 
 
 require_relative '../artbase'
@@ -20,8 +20,8 @@ c = TokenCollection.new( 'fastfoodmoonbirds-ii', 1000,
 
 ## note: starting with index one (1) and NOT zero (0)
 
-range = (1..100)
-# range = (100..1099)
+# range = (1..100)
+range = (101..1000)
 # c.download_meta( range )
 
 ## todo/fix: add direct:true   flag!!!!
