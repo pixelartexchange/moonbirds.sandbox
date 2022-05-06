@@ -1,0 +1,21 @@
+{
+  "name": "Burd #997",
+  "description": "24px Burds! 10000 algorithmically composed unique MoonBirds in the original CryptoPunk 24x24 format! Each trait handcrafted! Happy hunting for the special one :)!",
+  "image": "ipfs://bafybeienm5mhbw5nwracwzufvqwnjqfbmyhs763lft73jcdtz34dhpxf7e/997.png",
+  "dna": "997997997997997997997997997",
+  "edition": 997,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Cosmic Purple"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cosmic"
+    },
+    {
+      "trait_type": "Feathers",
+      "value": "Legendary Sage"
+    }
+  ]
+}

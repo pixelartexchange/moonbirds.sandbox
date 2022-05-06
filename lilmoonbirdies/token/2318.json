@@ -1,0 +1,37 @@
+{
+  "name": "Burd #2318",
+  "description": "24px Burds! 10000 algorithmically composed unique MoonBirds in the original CryptoPunk 24x24 format! Each trait handcrafted! Happy hunting for the special one :)!",
+  "image": "ipfs://bafybeienm5mhbw5nwracwzufvqwnjqfbmyhs763lft73jcdtz34dhpxf7e/2318.png",
+  "dna": "f29ca7d18b7a758efd9633acbfbbd8ddd2058ba4",
+  "edition": 2318,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ruby Skeleton"
+    },
+    {
+      "trait_type": "Feathers",
+      "value": "Legendary Bone"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Side Eye"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Jobs Glasses"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Wizards Hat"
+    }
+  ]
+}
