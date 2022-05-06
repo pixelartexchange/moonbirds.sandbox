@@ -31,7 +31,7 @@ Scripts, (token) metadata, images & more
 
 Example: Top selling golden moonbirds in phree the phlock variants
 
-![](i/phree-the-phlock.png)
+![](i/phree_the_phlock.png)
 
 
 
