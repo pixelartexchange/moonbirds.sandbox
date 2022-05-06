@@ -28,6 +28,26 @@ Scripts, (token) metadata, images & more
 
 
 
+### Glory To Ukraine! Stop the War! Fuck Vladimir Putin!
+
+Public Service "Stop the War" Announcement:
+
+The world has changed forever on February 24th, 2022
+(and it's not the blockchain, it's war in Europe!).
+Send a fuck (vladimir) putin! stop the war! glory to ukraine! message
+to the world with your profile picture (such as your pixel owls, apes, etc.) with the flag of ukraine  in the background.
+
+
+Example - First nine moonbirds
+
+![](i/moonbirds-ukraine.png)
+
+
+Example - Top selling golden moonbirds (plus red glitches)
+
+![](i/moonbirds-ukraine-golden.png)
+
+
 
 
 ## Questions? Comments?
