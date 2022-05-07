@@ -4,7 +4,11 @@
 #
 #
 #  generate fifteen new never-before-seen variants
-#   for the top seller #7963 (Jade Green Legendary Emperor)
+#   for the top seller #7963
+#    - background:        Jade Green
+#    - feathers (color):  Jade
+#    - body (type):       Legendary Emperor
+#
 
 require 'pixelart'
 
@@ -40,6 +44,66 @@ end
 
 moonbirds.save( "./tmp/moonbirds-jade_green.png" )
 moonbirds.zoom(4).save( "./tmp/moonbirds-jade_green@4x.png" )
+
+
+
+#####
+#  try new #1 top seller
+#    Moonbirds #2642 – 350 ETH (~$1,030,000)
+#    -  background:      Jade Green
+#    -  feathers (color) Jade
+#    -  body (type):     Legendary Sage
+
+base = Image.read( './moonbirds/42x42/2642.png' )
+
+moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
+
+[
+  ['eyes/round_glasses', [1,0]],
+  ['eyes/red_shades', [1,1]],
+  ['eyes/rainbow_shades', [1,0]],
+  ['eyes/green_shades', [0,2] ],
+  ['eyes/aviators', [0,1]],
+  ['eyes/neon_shades', [1,1]],
+  ['eyes/vipers', [1,1]],
+  ['head/gold', [1,0]],
+  ['head/crown', [1,0]],
+  ['head/red_bucket', [1,0]],
+  ['head/cowboy', [1,1]],
+  ['head/black_red'],
+  ['clothes/blue_hoodie'],
+  ['clothes/blue_scarf'],
+  ['clothes/blue_shirt'],
+].each do |rec|
+
+  attribute_name   = rec[0]
+  attribute_offset = rec[1]
+
+  moonbird = Image.new( 42, 42 )
+  moonbird.compose!( base )
+
+  attribute = Image.read( "./starbirds/attributes/#{attribute_name}.png" )
+
+  ##  quick & dirty hack:
+  ## cut-off px on left  for now
+  ## add px on top for now by cut-off px from bottom for now
+  if attribute_offset
+    attribute = attribute.crop( attribute_offset[0], 0,
+                                42-attribute_offset[0],
+                                42-attribute_offset[1] )
+    moonbird.compose!( attribute, 0, attribute_offset[1] )
+  else
+    moonbird.compose!( attribute )
+  end
+
+
+  moonbirds << moonbird
+end
+
+
+moonbirds.save( "./tmp/moonbirds-jade_green-ii.png" )
+moonbirds.zoom(4).save( "./tmp/moonbirds-jade_green-ii@4x.png" )
+
 
 puts "bye"
 

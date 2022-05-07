@@ -36,9 +36,14 @@ Example: Moonbird 1-bit variants
 Source: [**moonbirds/generate_1bit »**](moonbirds/generate_1bit.rb)
 
 
-### Fifteen Super Rare Never-Before-Seen Jade Green Legendary Emperor Moonbirds
+### Fifteen Super Rare Never-Before-Seen Jade Green Legendary Emperor & Sage Moonbirds
 
 ![](i/moonbirds-jade_green.png)
+
+Vol. 2
+
+![](i/moonbirds-jade_green-ii.png)
+
 
 Source: [**moonbirds/generate_fifteen »**](moonbirds/generate_fifteen.rb)
 
