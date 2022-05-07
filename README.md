@@ -8,7 +8,7 @@ Scripts, (token) metadata, images & more
 ## Collections - What's News?
 
 24x24px Lil' Moonbirdies - 10 000 max. <br>
-![](i/lilmoonbirdies-strip.png)   
+![](i/lilmoonbirdies-strip.png)    [**lilmoonbirdies.png**](https://github.com/pixelartexchange/collections/blob/master/lilmoonbirdies/lilmoonbirdies-24x24.png) (~2.3MB)
 
 42x42px Moonbirds - 10 000 max. <br>
 ![](i/moonbirds-strip.png)     [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB)
