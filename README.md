@@ -8,10 +8,10 @@ Scripts, (token) metadata, images & more
 ## Collections - What's News?
 
 24x24px Lil' Moonbirdies - 10 000 max. <br>
-![](i/lilmoonbirdies-strip.png)
+![](i/lilmoonbirdies-strip.png)   
 
 42x42px Moonbirds - 10 000 max. <br>
-![](i/moonbirds-strip.png)
+![](i/moonbirds-strip.png)     [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB)
 
 42x42px Fast Food Moonbirds - 4000 max. <br>
 ![](i/fastfoodmoonbirds-strip.png)
@@ -20,7 +20,7 @@ Scripts, (token) metadata, images & more
 ![](i/fastfoodmoonbirds-ii-strip.png)
 
 42x42px Starbirds - 3000 max. <br>
-![](i/starbirds-strip.png)
+![](i/starbirds-strip.png)   [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB)
 
 
 
