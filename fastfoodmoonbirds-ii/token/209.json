@@ -1,0 +1,30 @@
+{
+  "dna": "59d87be79a652d8f4b97ce25330b134f4e8bdf66",
+  "name": "Fast Food Moonbirds#209",
+  "description": "only 1,000 exclusive FFMoonbirds | 1st Restaurant on the moon | inspired by @moonbirds_xyz | No Roadmap No Discord Just Vibes yummy 🍔",
+  "image": "ipfs://QmVFpLud9fUc8pFUtrJ4XKf7gQDiZPThB2kqc1Y7bkbddt/209.png",
+  "edition": 209,
+  "date": 1650890246821,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "purple"
+    },
+    {
+      "trait_type": "Tribe",
+      "value": "Tribe 3"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Uniform"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "White Castle"
+    }
+  ]
+}

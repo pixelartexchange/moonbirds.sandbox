@@ -21,17 +21,55 @@ c = TokenCollection.new( 'fastfoodmoonbirds', 4000,
 )
 
 
-range = (0..99)
-# range = (100..1099)
-# c.download_meta( range )
+# range = (0..99)
+# range = (100..3999)
+range = (2900..3999)
+
+# retry_on_error( max_tries: 5 ) do
+#  c.download_meta( range )
+# end
 
 ## todo/fix: add direct:true   flag!!!!
 ##  add optional ipfs_gateway option - why? why not?
 # range = (5744..10000)
-# c.download_images( range )
+
+
+
+
+retry_on_error( max_tries: 5 ) do
+  c.download_images( range )
+end
+
 
 # range = (101..10000)
-c.pixelate( range )
+# c.pixelate( range )
 
 
 puts "bye"
+
+
+__END__
+
+## try to fix - some "blank" images - possible??
+##   is Legendary / Quit  on purpose blank as a "rugpull" joke??
+
+
+## - 516 - double checked image again via metadata - is blank again
+{"name": "#516",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0516.png",
+  "attributes":
+  [{"trait_type": "Background", "value": "Golden Arches Yellow"},
+    {"trait_type": "Body", "value": "Crescent"},
+    {"trait_type": "Eyes", "value": "Side Eye"},
+    {"trait_type": "Beak", "value": "Long"},
+    {"trait_type": "Legendary", "value": "Quit"}]}
+
+## - 683 - double checked image again via metadata - is blank again
+{"name": "#683",
+ "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0683.png",
+ "attributes":
+ [{"trait_type": "Background", "value": "America Runs On Orange"},
+  {"trait_type": "Body", "value": "Crescent"},
+  {"trait_type": "Eyes", "value": "Side Eye"},
+  {"trait_type": "Beak", "value": "Short"},
+  {"trait_type": "Legendary", "value": "Quit"}]}

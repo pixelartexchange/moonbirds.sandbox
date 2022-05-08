@@ -48,7 +48,7 @@ moonbirds.zoom(4).save( "./tmp/moonbirds-jade_green@4x.png" )
 
 
 #####
-#  try new #1 top seller
+#  try new #1 top seller  with more "starbirds" attributes
 #    Moonbirds #2642 – 350 ETH (~$1,030,000)
 #    -  background:      Jade Green
 #    -  feathers (color) Jade
@@ -103,6 +103,50 @@ end
 
 moonbirds.save( "./tmp/moonbirds-jade_green-ii.png" )
 moonbirds.zoom(4).save( "./tmp/moonbirds-jade_green-ii@4x.png" )
+
+
+
+#####
+#  try new #2 top seller with fastfood attributes
+#    Moonbirds #3904
+#    -  background:      Enlightened Purple
+#    -  feathers (color) Enlightened
+#    -  body (type):     Legendary Crescent
+
+base = Image.read( './moonbirds/42x42/3904.png' )
+
+
+moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
+
+[
+  'headwear/macdonalds-red',
+  'headwear/macdonalds-black',
+  'headwear/macdonalds-white',
+  'headwear/wendys',
+  'headwear/burger_king',
+  'headwear/chef-white',
+  'headwear/chef-red',
+  'headwear/dunkin_donuts',
+  'headwear/white_castle',
+  'headwear/pizzahut',
+  'headwear/dominos_pizza',
+  'headwear/subway',
+  'headwear/burger',
+  'headwear/fries',
+  'headwear/cola',
+].each do |attribute|
+
+  moonbird = Image.new( 42, 42 )
+  moonbird.compose!( base )
+  moonbird.compose!( Image.read( "./fastfoodmoonbirds-ii/attributes/#{attribute}.png" ))
+
+  moonbirds << moonbird
+end
+
+
+moonbirds.save( "./tmp/moonbirds-enlightened_purple.png" )
+moonbirds.zoom(4).save( "./tmp/moonbirds-enlightened_purple@4x.png" )
+
 
 
 puts "bye"

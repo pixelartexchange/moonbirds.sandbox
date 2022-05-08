@@ -22,12 +22,16 @@ c = TokenCollection.new( 'fastfoodmoonbirds-ii', 1000,
 
 # range = (1..100)
 range = (101..1000)
-# c.download_meta( range )
+retry_on_error( max_tries: 5 ) do
+  c.download_meta( range )
+end
 
 ## todo/fix: add direct:true   flag!!!!
 ##  add optional ipfs_gateway option - why? why not?
 # range = (5744..10000)
-c.download_images( range )
+# retry_on_error( max_tries: 5 ) do
+#   c.download_images( range )
+# end
 
 # range = (101..10000)
 # c.pixelate( range )
