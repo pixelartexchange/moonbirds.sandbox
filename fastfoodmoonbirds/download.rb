@@ -32,12 +32,13 @@ range = (100..4999)
 ## todo/fix: add direct:true   flag!!!!
 ##  add optional ipfs_gateway option - why? why not?
 
-retry_on_error( max_tries: 5 ) do
-  c.download_images( range )
-end
+# retry_on_error( max_tries: 5 ) do
+#  c.download_images( range )
+# end
 
 
-# c.pixelate( range )
+range = (100..999)
+c.pixelate( range )
 
 
 puts "bye"
