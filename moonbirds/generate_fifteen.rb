@@ -14,6 +14,7 @@ require 'pixelart'
 
 
 
+
 base = Image.read( './moonbirds/42x42/7963.png' )
 
 moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
@@ -146,6 +147,42 @@ end
 
 moonbirds.save( "./tmp/moonbirds-enlightened_purple.png" )
 moonbirds.zoom(4).save( "./tmp/moonbirds-enlightened_purple@4x.png" )
+
+
+
+### try some more fast food attributes
+
+moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
+
+[
+  'headwear/mcdonalds_hat',
+  'headwear/mcdonalds_visor',
+  'headwear/mcdonalds_bucket_hat',
+  'headwear/in-n-out_burger_hat',
+  'headwear/dominos_hat',
+  'headwear/dunkin_donuts_hat',
+  'headwear/hooters_hat',
+  'headwear/ice_cream_cone',
+  'headwear/kfc_bucket_hat',
+  'headwear/popcorn',
+  'headwear/subway_visor_2',
+  'headwear/taco_bell_hat',
+  'headwear/walmart_hat',
+  'headwear/walmart_hat_2',
+  'headwear/ben-n-jerrys_bucket_hat',
+].each do |attribute|
+
+  moonbird = Image.new( 42, 42 )
+  moonbird.compose!( base )
+  moonbird.compose!( Image.read( "./fastfoodmoonbirds/attributes/#{attribute}.png" ))
+
+  moonbirds << moonbird
+end
+
+
+moonbirds.save( "./tmp/moonbirds-enlightened_purple-ii.png" )
+moonbirds.zoom(4).save( "./tmp/moonbirds-enlightened_purple-ii@4x.png" )
+
 
 
 

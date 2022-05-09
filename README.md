@@ -41,7 +41,7 @@ Example: Moonbird 1-bit variants
 Source: [**moonbirds/generate_1bit »**](moonbirds/generate_1bit.rb)
 
 
-### Fifteen Super Rare Never-Before-Seen Moonbirds - Vol. 1, 2 & 3
+### Fifteen Super Rare Never-Before-Seen Moonbirds - Vol. 1, 2, 3 & 4
 
 Example: Vol. 1 - Jade Green Legendary Emperor Moonbirds
 
@@ -54,6 +54,10 @@ Example: Vol. 2  - Jade Green Legendary Sage Moonbirds
 Example: Vol. 3 -  Enlightened Purple Legendary Crescent Fast Food Moonbirds
 
 ![](i/moonbirds-enlightened_purple.png)
+
+Example: Vol. 4 -  Enlightened Purple Legendary Crescent More Fast Food Moonbirds
+
+![](i/moonbirds-enlightened_purple-ii.png)
 
 
 Source: [**moonbirds/generate_fifteen »**](moonbirds/generate_fifteen.rb)
