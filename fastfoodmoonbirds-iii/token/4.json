@@ -1,10 +1,11 @@
 {
   "name": "#4",
-  "image": "https://ipfs.io/ipfs/QmXof9jkSZqYrUrt9Pj3S4tq7i3QqwMSW9Whn3i6cZVhUe/4.png",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0004.png",
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "Blue"
+      "value": "Live Mas Purple"
     },
     {
       "trait_type": "Body",
@@ -12,25 +13,19 @@
     },
     {
       "trait_type": "Eyes",
-      "value": "Angry"
+      "value": "Discerning"
     },
     {
       "trait_type": "Beak",
       "value": "Small"
     },
     {
-      "trait_type": "Outfit",
-      "value": "KFC Shirt"
-    },
-    {
       "trait_type": "Headwear",
-      "value": "In-N-Out Burger Hat"
+      "value": "McDonald's"
     },
     {
-      "trait_type": "Feathers",
-      "value": "Black"
+      "trait_type": "Outerwear",
+      "value": "McDonald's"
     }
-  ],
-  "description": "5000 fast food birds nesting on the Ethereum blockchain. We’re here to flip burgers and serve fries! This is a Mooncats derivative project and is not associated or affiliated with the Mooncats_xyz project.",
-  "external_url": "https://fastfoodbirds.xyz/"
+  ]
 }

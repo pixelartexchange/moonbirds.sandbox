@@ -13,11 +13,16 @@ Scripts, (token) metadata, images & more
 42x42px Moonbirds - 10 000 max. <br>
 ![](i/moonbirds-strip.png)     [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB)
 
-42x42px Fast Food Moonbirds - 4000 max. <br>
+
+42x42px Fast Food Moonbirds (Vol. 1) - 5000 max. <br>
 ![](i/fastfoodmoonbirds-strip.png)
 
 42x42px Fast Food Moonbirds (Vol. 2) - 1000 max. <br>
 ![](i/fastfoodmoonbirds-ii-strip.png)
+
+42x42px Fast Food Moonbirds (Vol. 3) - 4000 max. <br>
+![](i/fastfoodmoonbirds-iii-strip.png)
+
 
 42x42px Starbirds - 3000 max. <br>
 ![](i/starbirds-strip.png)   [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB)

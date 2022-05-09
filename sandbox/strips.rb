@@ -19,9 +19,14 @@ end
 strip = gen_strip( "fastfoodmoonbirds")
 strip.save( "./tmp/fastfoodmoonbirds-strip.png" )
 
+__END__
 
 strip = gen_strip( "fastfoodmoonbirds-ii", offset: 1 )
 strip.save( "./tmp/fastfoodmoonbirds-ii-strip.png" )
+
+
+strip = gen_strip( "fastfoodmoonbirds-iii")
+strip.save( "./tmp/fastfoodmoonbirds-iii-strip.png" )
 
 
 strip = gen_strip( "lilmoonbirdies", width: 24, height: 24, offset: 1 )
