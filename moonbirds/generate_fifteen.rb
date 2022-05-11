@@ -184,6 +184,37 @@ moonbirds.save( "./tmp/moonbirds-enlightened_purple-ii.png" )
 moonbirds.zoom(4).save( "./tmp/moonbirds-enlightened_purple-ii@4x.png" )
 
 
+### try some more fast food attributes
+
+moonbirds = ImageComposite.new( 5, 3, width: 42, height: 42 )
+
+[ 'fastfoodmoonbirds/attributes/outfit/el_pollo_loco_mascot',
+  'fastfoodmoonbirds-ii/attributes/headwear/chicken',
+  'fastfoodmoonbirds-iii/attributes/headwear/kfc_family_bucket',
+  'fastfoodmoonbirds-iii/attributes/headwear/mcdonalds-red',
+  'fastfoodmoonbirds-iii/attributes/headwear/in-n-out',
+  'fastfoodmoonbirds-iii/attributes/headwear/burger_kings_crown',
+  'fastfoodmoonbirds/attributes/headwear/pizza_hut_hat',
+  'fastfoodmoonbirds-iii/attributes/headwear/grill_cook',
+  'fastfoodmoonbirds-iii/attributes/outerwear/hibachi',
+  'fastfoodmoonbirds-iii/attributes/outerwear/kfc_shirt',
+  'fastfoodmoonbirds-iii/attributes/outerwear/manager',
+  'fastfoodmoonbirds-iii/attributes/outerwear/mcdonalds',
+  'fastfoodmoonbirds-iii/attributes/outerwear/mcdonalds_classic',
+  'fastfoodmoonbirds-iii/attributes/outerwear/mcdonalds_old_skool',
+  'fastfoodmoonbirds-iii/attributes/accessory/drive-thru-on-duty',
+ ].each do |attribute|
+
+  moonbird = Image.new( 42, 42 )
+  moonbird.compose!( base )
+  moonbird.compose!( Image.read( "./#{attribute}.png" ))
+
+  moonbirds << moonbird
+end
+
+
+moonbirds.save( "./tmp/moonbirds-enlightened_purple-iii.png" )
+moonbirds.zoom(4).save( "./tmp/moonbirds-enlightened_purple-iii@4x.png" )
 
 
 puts "bye"

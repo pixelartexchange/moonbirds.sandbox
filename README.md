@@ -59,10 +59,11 @@ Example: Vol. 3 -  Enlightened Purple Legendary Crescent Fast Food Moonbirds
 
 ![](i/moonbirds-enlightened_purple.png)
 
-Example: Vol. 4 -  Enlightened Purple Legendary Crescent More Fast Food Moonbirds
+Example: Vol. 4 I&II -  Enlightened Purple Legendary Crescent More Fast Food Moonbirds
 
 ![](i/moonbirds-enlightened_purple-ii.png)
 
+![](i/moonbirds-enlightened_purple-iii.png)
 
 Source: [**moonbirds/generate_fifteen »**](moonbirds/generate_fifteen.rb)
 
