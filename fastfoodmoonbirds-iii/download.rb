@@ -40,13 +40,13 @@ range = (2900..3999)
 
 
 
-retry_on_error( max_tries: 5 ) do
-  c.download_images( range )
-end
+# retry_on_error( max_tries: 5 ) do
+#  c.download_images( range )
+# end
 
 
-# range = (101..10000)
-# c.pixelate( range )
+range = (101..10000)
+c.pixelate( range )
 
 
 puts "bye"

@@ -131,6 +131,19 @@ Source: [**moonbirds/generate_0x »**](moonbirds/generate_0x.rb)
 
 
 
+### Starbucks Coffee Barista Edition
+
+Example - Golden Moonbird Baristas
+
+![](i/moonbirds-starbucks.png)
+
+Source: [**moonbirds/starbucks »**](moonbirds/starbucks.rb)
+
+
+
+
+
+
 ## Questions? Comments?
 
 Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
