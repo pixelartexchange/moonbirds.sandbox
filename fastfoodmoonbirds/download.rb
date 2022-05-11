@@ -37,7 +37,7 @@ range = (100..4999)
 # end
 
 
-range = (100..999)
+# range = (100..999)
 c.pixelate( range )
 
 
