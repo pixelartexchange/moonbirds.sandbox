@@ -11,7 +11,8 @@ Scripts, (token) metadata, images & more
 ![](i/lilmoonbirdies-strip.png)    [**lilmoonbirdies.png**](https://github.com/pixelartexchange/collections/blob/master/lilmoonbirdies/lilmoonbirdies-24x24.png) (~2.3MB)
 
 42x42px Moonbirds - 10 000 max. <br>
-![](i/moonbirds-strip.png)     [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB)
+![](i/moonbirds-strip.png)     [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB),
+[**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) (~643kb)
 
 
 42x42px Fast Food Moonbirds (Vol. 1) - 5000 max. <br>
@@ -29,7 +30,8 @@ Scripts, (token) metadata, images & more
 
 
 42x42px Starbirds - 3000 max. <br>
-![](i/starbirds-strip.png)   [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB)
+![](i/starbirds-strip.png)   [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB),
+[**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) (~225kb)
 
 
 
