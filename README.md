@@ -7,29 +7,29 @@ Scripts, (token) metadata, images & more
 
 ## Collections - What's News?
 
-24x24px Lil' Moonbirdies - 10 000 max. <br>
+**24x24px Lil' Moonbirdies** - 10 000 max. <br>
 ![](i/lilmoonbirdies-strip.png)  <br>   [**lilmoonbirdies.png**](https://github.com/pixelartexchange/collections/blob/master/lilmoonbirdies/lilmoonbirdies-24x24.png) (~2.3MB)
 
-42x42px Moonbirds - 10 000 max. <br>
+**42x42px Moonbirds** - 10 000 max. <br>
 ![](i/moonbirds-strip.png)   <br>  [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB),
 [**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) (~643kb)
 
 
-42x42px Fast Food Moonbirds (Vol. 1) - 5000 max. <br>
+**42x42px Fast Food Moonbirds (Vol. 1)** - 5000 max. <br>
 ![](i/fastfoodmoonbirds-strip.png)  <br>    [**fastfoodmoonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds/fastfoodmoonbirds-42x42.png) (~2.27MB)
 
 
-42x42px Fast Food Moonbirds (Vol. 2) - 1000 max. <br>
+**42x42px Fast Food Moonbirds (Vol. 2)** - 1000 max. <br>
 ![](i/fastfoodmoonbirds-ii-strip.png)   <br> [**fastfoodmoonbirds-ii.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds-ii/fastfoodmoonbirds-ii-42x42.png) (~404k)
 
 
 
 
-42x42px Fast Food Moonbirds (Vol. 3) - 4000 max. <br>
+**42x42px Fast Food Moonbirds (Vol. 3)** - 4000 max. <br>
 ![](i/fastfoodmoonbirds-iii-strip.png)
 
 
-42x42px Starbirds - 3000 max. <br>
+**42x42px Starbirds** - 3000 max. <br>
 ![](i/starbirds-strip.png)  <br> [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB),
 [**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) (~225kb)
 
