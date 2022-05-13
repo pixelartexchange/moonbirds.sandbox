@@ -1,12 +1,12 @@
 #####
 # to run use:
-#   $ ruby burds/download.rb
+#   $ ruby lilmoonbirdies/download.rb
 
 
 require_relative '../artbase'
 
 
-c = TokenCollection.new( 'burds', 10000,
+c = TokenCollection.new( 'lilmoonbirdies', 10000,
                      token_base: 'ipfs://bafybeieasovflou6ctt6tuj6ixmygqmgxyw6xnmo6tnl4og5e6tl4n4lqa/{id}.json',
                      image_base: 'ipfs://bafybeienm5mhbw5nwracwzufvqwnjqfbmyhs763lft73jcdtz34dhpxf7e/{id}.png',
                      format: '24x24',

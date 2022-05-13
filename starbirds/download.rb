@@ -34,7 +34,18 @@ c = TokenCollection.new( 'starbirds', 3000,
 
 
 # range = (0..2999)
-c.dump_attributes
+# c.dump_attributes
+
+c.export_attributes(
+  order: ['Background',
+          'Base',
+          'Eyes',
+          'Head',
+          'Clothes',
+          'Name' ],
+  renames: { 'Name' => 'Name 1/1'}   ## use Special Edition (Name) or such - why? why not?
+)
+
 
 
 puts "bye"

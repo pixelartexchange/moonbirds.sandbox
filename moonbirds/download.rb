@@ -29,10 +29,9 @@ range = (3500..9999)
 # c.pixelate( range )
 
 
-c.dump_attributes
+# c.dump_attributes
 
 
-__END__
 c.export_attributes(
   order: ['Background',
              'Body',
