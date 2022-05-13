@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby proof-moonbirds/download.rb
+#   $ ruby moonbirds/download.rb
 
 
 require_relative '../artbase'
@@ -8,7 +8,7 @@ require_relative '../artbase'
 
 
 
-c = TokenCollection.new( 'proof-moonbirds', 10000,
+c = TokenCollection.new( 'moonbirds', 10000,
                           token_base: 'https://live---metadata-5covpqijaa-uc.a.run.app/metadata/{id}',
                           format: '42x42',
                           source: '1008x1008' )
@@ -26,7 +26,24 @@ range = (3500..9999)
 # c.download_images( range )
 
 # range = (1..9973)
-c.pixelate( range )
+# c.pixelate( range )
+
+
+c.dump_attributes
+
+
+__END__
+c.export_attributes(
+  order: ['Background',
+             'Body',
+             'Feathers',
+             'Beak',
+             'Eyes',
+             'Eyewear',
+             'Headwear',
+             'Outerwear']
+)
+
 
 
 puts "bye"

@@ -29,8 +29,12 @@ c = TokenCollection.new( 'starbirds', 3000,
 #                    #2582 is 420x420 (NOT 1000x1000)
 
 # range = (100..999)
-range = (2583..2999)
-c.pixelate( range )
+# range = (2583..2999)
+# c.pixelate( range )
+
+
+# range = (0..2999)
+c.dump_attributes
 
 
 puts "bye"

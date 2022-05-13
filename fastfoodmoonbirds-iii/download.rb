@@ -26,8 +26,8 @@ c = TokenCollection.new( 'fastfoodmoonbirds-iii', 4000,
 
 
 # range = (0..99)
-# range = (100..3999)
-range = (2900..3999)
+range = (100..3999)
+# range = (2900..3999)
 
 # retry_on_error( max_tries: 5 ) do
 #  c.download_meta( range )
@@ -38,15 +38,17 @@ range = (2900..3999)
 # range = (5744..10000)
 
 
+# Artbase.config.ipfs_gateway = 'https://cloudflare-ipfs.com/ipfs/'
+# range = (3000..3999)
+# range = (2000..3999)
+
+retry_on_error( max_tries: 5 ) do
+  c.download_images( range )
+end
 
 
-# retry_on_error( max_tries: 5 ) do
-#  c.download_images( range )
-# end
-
-
-range = (101..10000)
-c.pixelate( range )
+# range = (101..10000)
+# c.pixelate( range )
 
 
 puts "bye"
