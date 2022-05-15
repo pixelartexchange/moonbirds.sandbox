@@ -1,0 +1,36 @@
+{
+  "name": "#2656",
+  "image": "https://ipfs.io/ipfs/QmXof9jkSZqYrUrt9Pj3S4tq7i3QqwMSW9Whn3i6cZVhUe/2656.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Stark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Relaxed"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Short"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "McDonalds Polo"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Walmart Hat 2"
+    },
+    {
+      "trait_type": "Feathers",
+      "value": "Black"
+    }
+  ],
+  "description": "5000 fast food birds nesting on the Ethereum blockchain. We’re here to flip burgers and serve fries! This is a Mooncats derivative project and is not associated or affiliated with the Mooncats_xyz project.",
+  "external_url": "https://fastfoodbirds.xyz/"
+}

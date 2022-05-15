@@ -1,0 +1,31 @@
+{
+  "name": "#328",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0328.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "America Runs On Orange"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Sage"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Long"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Jimmy John's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Ball and Chain"
+    }
+  ]
+}

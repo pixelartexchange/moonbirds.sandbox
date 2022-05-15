@@ -1,0 +1,31 @@
+{
+  "name": "#493",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0493.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Live Mas Purple"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Stark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bun"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Domino's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "KFC Shirt"
+    }
+  ]
+}

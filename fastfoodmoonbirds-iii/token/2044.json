@@ -1,0 +1,31 @@
+{
+  "name": "#2044",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/2044.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Eat Fresh Green"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Crescent"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Short"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "McDonald's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "In-n-Out Polo"
+    }
+  ]
+}

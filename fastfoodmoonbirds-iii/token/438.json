@@ -1,0 +1,35 @@
+{
+  "name": "#438",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0438.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Depressing Gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Tabby"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Angry"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Jimmy John's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "KFC Shirt"
+    },
+    {
+      "trait_type": "Drive-thru",
+      "value": "On Duty"
+    }
+  ]
+}

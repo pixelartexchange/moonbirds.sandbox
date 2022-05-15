@@ -1,0 +1,31 @@
+{
+  "name": "#727",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0727.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Your Way Blue"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brave"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Discerning"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Back of House Durag"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Hibachi"
+    }
+  ]
+}

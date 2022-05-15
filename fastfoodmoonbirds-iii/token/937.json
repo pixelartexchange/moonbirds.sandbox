@@ -1,0 +1,31 @@
+{
+  "name": "#937",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0937.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Golden Arches Yellow"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brave"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Adorable"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Golden Talisman"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Whataburger Polo"
+    }
+  ]
+}

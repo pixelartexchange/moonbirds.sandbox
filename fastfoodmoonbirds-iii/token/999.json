@@ -1,0 +1,35 @@
+{
+  "name": "#999",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/0999.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Live Mas Purple"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Stark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bun"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Long"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "Assistant Manager Glasses"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "McDonald's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Old Skool"
+    }
+  ]
+}
