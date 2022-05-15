@@ -26,8 +26,8 @@ attribute usage / counts:
 -  Beak  4989  (3 uniques)
 -  Eyes  4757  (11 uniques)
 -  Eyewear  290  (12 uniques)
--  Outfit  4063  (12 uniques)
 -  Headwear  4304  (34 uniques)
+-  Outfit  4063  (12 uniques)
 
 
 ```

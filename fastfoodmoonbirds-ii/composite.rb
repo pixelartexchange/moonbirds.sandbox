@@ -3,22 +3,13 @@
 #   $ ruby fastfoodmoonbirds-ii/composite.rb
 
 
-require 'pixelart'
+require_relative '../artbase'
+require_relative 'collection'
 
 
-composite = ImageComposite.new( 25, 40,
-                                width: 42, height: 42 )   ## 25x40= 1000
+c = COLLECTION
+c.make_composite
 
-
-ids = (1..1000)
-ids.each do |id|
-  puts "==> #{id}"
-  img = Image.read( "./fastfoodmoonbirds-ii/42x42/#{id}.png")
-
-  composite << img
-end
-
-composite.save( "./tmp/fastfoodmoonbirds-ii-42x42.png" )
 
 puts "bye"
 
