@@ -13,7 +13,7 @@ c = COLLECTION
 
 
 Artbase.config.ipfs_gateway = 'https://cloudflare-ipfs.com/ipfs/'
-range = (2000..3999)
+range = (3888..3999)
 
 retry_on_error( max_tries: 8 ) do
   c.download_meta( range )

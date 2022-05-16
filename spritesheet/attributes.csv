@@ -32,6 +32,9 @@ body/ruby_skeleton.png,
 
 body/skeleton.png,
 
+body/robot.png,
+
+
 
 ######################
 #  beak  (+color)
@@ -43,6 +46,10 @@ beak/small-ruby.png,
 beak/small-skeleton.png,
 beak/short-skeleton.png,
 beak/long-skeleton.png,
+
+beak/small-robot.png,
+beak/short-robot.png,
+beak/long-robot.png,
 
 
 #########################
@@ -58,6 +65,10 @@ eyes/adorable-skeleton.png,
 eyes/angry-skeleton.png,
 eyes/open-skeleton.png,
 eyes/relaxed-skeleton.png,
+
+eyes/angry-robot.png,
+eyes/open-robot.png,
+
 
 
 ###############
