@@ -1,0 +1,31 @@
+{
+  "name": "#1503",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/1503.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Golden Arches Yellow"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Crescent"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Discerning"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Small"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Inspector"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "In-n-Out Polo"
+    }
+  ]
+}

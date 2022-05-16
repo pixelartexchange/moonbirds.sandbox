@@ -1,0 +1,31 @@
+{
+  "name": "#2053",
+  "description": "A boutique collection of 4,000 PFPs that feature traits based on the beloved Fast Food Bear Market meme.",
+  "image": "ipfs://QmSfQsQGQKVGt4Rye74Vgc7zTeGUgTEGEkmxZTu5wXj6vp/2053.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Finger Lickin' Red"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Stark"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "Long"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Domino's"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "McClassic"
+    }
+  ]
+}

@@ -4,13 +4,13 @@
 
 
 require_relative '../artbase'
+require_relative 'collection'
 
 
-c = TokenCollection.new( 'starbirds', 3000,
-                     token_base: 'ipfs://QmfX7KKqsHgdFNZNnVs7xzhMg4M5GmHxdPPJHZ5QSp2MaX/{id}.json',
-                    format: '42x42',  ## note:  34px overflow!!!
-                    source: '1000x1000',  ## '420x420'
-)
+c = COLLECTION
+
+
+
 
 # range = (0..99)
 # range = (752..2999)

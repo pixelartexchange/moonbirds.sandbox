@@ -11,18 +11,20 @@ Scripts, (token) metadata, images & more
 ![](i/lilmoonbirdies-strip.png)  <br>   [**lilmoonbirdies.png**](https://github.com/pixelartexchange/collections/blob/master/lilmoonbirdies/lilmoonbirdies-24x24.png) (~2.3MB)
 
 **42x42px Moonbirds** - 10 000 max. <br>
-![](i/moonbirds-strip.png)   <br>  [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB),
-[**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) (~643kb)
+![](i/moonbirds-strip.png)   <br>  [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB) - Bonus:
+[**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) attribute rarity & popularity dataset (~643kb)
+
+
 
 
 **42x42px Fast Food Moonbirds (Vol. 1)** - 5000 max. <br>
-![](i/fastfoodmoonbirds-strip.png)  <br>    [**fastfoodmoonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds/fastfoodmoonbirds-42x42.png) (~2.27MB),
-[**fastfoodmoonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds.csv) (~391kb)
+![](i/fastfoodmoonbirds-strip.png)  <br>    [**fastfoodmoonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds/fastfoodmoonbirds-42x42.png) (~2.27MB) - Bonus:
+[**fastfoodmoonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds.csv) attribute rarity & popularity dataset (~391kb)
 
 
 **42x42px Fast Food Moonbirds (Vol. 2)** - 1000 max. <br>
-![](i/fastfoodmoonbirds-ii-strip.png)   <br> [**fastfoodmoonbirds-ii.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds-ii/fastfoodmoonbirds-ii-42x42.png) (~404k),
-[**fastfoodmoonbirds-ii.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds-ii.csv) (~82kb)
+![](i/fastfoodmoonbirds-ii-strip.png)   <br> [**fastfoodmoonbirds-ii.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds-ii/fastfoodmoonbirds-ii-42x42.png) (~404k) - Bonus:
+[**fastfoodmoonbirds-ii.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds-ii.csv) attribute rarity & popularity dataset (~82kb)
 
 
 
@@ -34,8 +36,10 @@ Scripts, (token) metadata, images & more
 
 
 **42x42px Starbirds** - 3000 max. <br>
-![](i/starbirds-strip.png)  <br> [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB),
-[**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) (~225kb)
+![](i/starbirds-strip.png)  <br> [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB) - Bonus:
+[**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) attribute rarity & popularity dataset (~225kb)
+
+
 
 
 

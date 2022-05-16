@@ -2,28 +2,25 @@
 # to run use:
 #   $ ruby lilmoonbirdies/download.rb
 
-
 require_relative '../artbase'
+require_relative 'collection'
 
 
-c = TokenCollection.new( 'lilmoonbirdies', 10000,
-                     token_base: 'ipfs://bafybeieasovflou6ctt6tuj6ixmygqmgxyw6xnmo6tnl4og5e6tl4n4lqa/{id}.json',
-                     image_base: 'ipfs://bafybeienm5mhbw5nwracwzufvqwnjqfbmyhs763lft73jcdtz34dhpxf7e/{id}.png',
-                     format: '24x24',
-                     source: '720x720',
-)
+c = COLLECTION
+
+
 
 ## note: starting with index one (1) and NOT zero (0)
 
 # range = (1..100)
-# range = (101..10000)
+range = (101..10000)
+range = (101..5000)
 
-range = (5000..10000)
 
+# range = (5000..10000)
+# Artbase.config.ipfs_gateway = 'https://cloudflare-ipfs.com/ipfs/'
 
-Artbase.config.ipfs_gateway = 'https://cloudflare-ipfs.com/ipfs/'
-
-retry_on_error( max_tries: 3 ) do
+retry_on_error( max_tries: 8 ) do
   c.download_meta( range )
 end
 

@@ -4,14 +4,11 @@
 
 
 require_relative '../artbase'
+require_relative 'collection'
 
 
+c = COLLECTION
 
-
-c = TokenCollection.new( 'moonbirds', 10000,
-                          token_base: 'https://live---metadata-5covpqijaa-uc.a.run.app/metadata/{id}',
-                          format: '42x42',
-                          source: '1008x1008' )
 
 # range = (307..999)
 range = (3500..9999)
