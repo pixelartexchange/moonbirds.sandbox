@@ -12,19 +12,19 @@ Scripts, (token) metadata, images & more
 
 **42x42px Moonbirds** - 10 000 max. <br>
 ![](i/moonbirds-strip.png)   <br>  [**moonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/moonbirds/moonbirds-42x42.png) (~4.6MB) ++ Bonus:
-[**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) (~643kb) attribute rarity & popularity dataset 
+[**moonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/moonbirds.csv) (~643kb) attribute rarity & popularity dataset
 
 
 
 
 **42x42px Fast Food Moonbirds (Vol. 1)** - 5000 max. <br>
 ![](i/fastfoodmoonbirds-strip.png)  <br>    [**fastfoodmoonbirds.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds/fastfoodmoonbirds-42x42.png) (~2.27MB) ++ Bonus:
-[**fastfoodmoonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds.csv) (~391kb) attribute rarity & popularity dataset 
+[**fastfoodmoonbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds.csv) (~391kb) attribute rarity & popularity dataset
 
 
 **42x42px Fast Food Moonbirds (Vol. 2)** - 1000 max. <br>
 ![](i/fastfoodmoonbirds-ii-strip.png)   <br> [**fastfoodmoonbirds-ii.png**](https://github.com/pixelartexchange/collections/blob/master/fastfoodmoonbirds-ii/fastfoodmoonbirds-ii-42x42.png) (~404k) ++ Bonus:
-[**fastfoodmoonbirds-ii.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds-ii.csv) (~82kb) attribute rarity & popularity dataset 
+[**fastfoodmoonbirds-ii.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/fastfoodmoonbirds-ii.csv) (~82kb) attribute rarity & popularity dataset
 
 
 
@@ -37,7 +37,7 @@ Scripts, (token) metadata, images & more
 
 **42x42px Starbirds** - 3000 max. <br>
 ![](i/starbirds-strip.png)  <br> [**starbirds.png**](https://github.com/pixelartexchange/collections/blob/master/starbirds/starbirds-42x42.png) (~2MB) ++ Bonus:
-[**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) (~225kb) attribute rarity & popularity dataset 
+[**starbirds.csv**](https://github.com/pixelartexchange/collections.meta/blob/master/starbirds.csv) (~225kb) attribute rarity & popularity dataset
 
 
 
@@ -137,6 +137,11 @@ Example - Body Ruby Skeleton
 Example - Skeleton
 
 ![](i/moonbirds-bodies_skeleton.png)
+
+Example - Robot Metal
+
+![](i/moonbirds-bodies_robot.png)
+
 
 Source: [**moonbirds/generate_0x »**](moonbirds/generate_0x.rb)
 

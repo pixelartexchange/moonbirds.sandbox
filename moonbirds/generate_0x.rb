@@ -30,6 +30,11 @@ queens_crown = Image.read( "./moonbirds/attributes/headwear/queens_crown.png" )
 fire         = Image.read( "./moonbirds/attributes/headwear/fire.png" )
 
 
+hoodie_down  = Image.read( "./moonbirds/attributes/outerwear/hoodie_down.png" )
+punk_jacket  = Image.read( "./moonbirds/attributes/outerwear/punk_jacket.png" )
+
+
+
 
 
 bodies_white = [
@@ -240,6 +245,54 @@ end
 
 moonbirds.save( "./tmp/moonbirds-bodies_ruby_skeleton.png" )
 moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_ruby_skeleton@3x.png" )
+
+
+
+body_robot         = Image.read( "./moonbirds/attributes/body/robot.png" )
+beak_small_robot   = Image.read( "./moonbirds/attributes/beak/small-robot.png" )
+
+bodies_ruby_skeleton = [
+  'eyes/open-robot',
+  'eyes/angry-robot',
+  'eyewear/3d_glasses',
+  'eyewear/sunglasses',
+  'eyewear/rose-colored_glasses',
+  'eyewear/visor',
+].map { |attribute|
+   moonbird = Image.new( 42, 42 )
+   moonbird.compose!( body_robot )
+   moonbird.compose!( beak_small_robot )
+   moonbird.compose!( Image.read( "./moonbirds/attributes/#{attribute}.png"))
+   moonbird
+}
+
+moonbirds = ImageComposite.new( 6, 4, width: 42, height: 42 )
+
+(0..3).each do |series|
+  bodies_ruby_skeleton.each do |body|
+    background = if series == 0
+                    0 # use (default) transparent
+                 else
+                     '#FFBF00'  # use golden 0x/extension background
+                 end
+
+    moonbird = Image.new( 42, 42, background )
+
+    moonbird.compose!( body )
+    moonbird.compose!( flowers )        if series == 1
+
+    moonbird.compose!( backwards_hat )  if series == 2
+    moonbird.compose!( hoodie_down )    if series == 2
+
+    moonbird.compose!( punk_jacket )    if series == 3
+
+    moonbirds << moonbird
+  end
+end
+
+
+moonbirds.save( "./tmp/moonbirds-bodies_robot.png" )
+moonbirds.zoom(3).save( "./tmp/moonbirds-bodies_robot@3x.png" )
 
 
 puts "bye"
