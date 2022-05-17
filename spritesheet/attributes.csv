@@ -3,131 +3,309 @@ path,  name,  category
 ##################
 #  bodies
 
-body/brave-brown.png,
-body/crescent-brown.png,
-body/emperor-brown.png,
-body/guardian-brown.png,
-body/sage-brown.png,
-body/stark-brown.png,
-body/tabby-brown.png,
-body/tranquil-brown.png,
+moonbirds/body/brave-brown.png,
+moonbirds/body/crescent-brown.png,
+moonbirds/body/emperor-brown.png,
+moonbirds/body/guardian-brown.png,
+moonbirds/body/sage-brown.png,
+moonbirds/body/stark-brown.png,
+moonbirds/body/tabby-brown.png,
+moonbirds/body/tranquil-brown.png,
 
-body/brave-red.png,
-body/crescent-red.png,
-body/emperor-red.png,
-body/guardian-red.png,
-body/professor-red.png,
-body/sage-red.png,
-body/tabby-red.png,
-body/tranquil-red.png,
+moonbirds/body/brave-red.png,
+moonbirds/body/crescent-red.png,
+moonbirds/body/emperor-red.png,
+moonbirds/body/guardian-red.png,
+moonbirds/body/professor-red.png,
+moonbirds/body/sage-red.png,
+moonbirds/body/tabby-red.png,
+moonbirds/body/tranquil-red.png,
 
-body/emperor-white.png,
-body/guardian-white.png,
-body/professor-white.png,
-body/stark-white.png,
-body/tabby-white.png,
-body/tranquil-white.png,
+moonbirds/body/emperor-white.png,
+moonbirds/body/guardian-white.png,
+moonbirds/body/professor-white.png,
+moonbirds/body/stark-white.png,
+moonbirds/body/tabby-white.png,
+moonbirds/body/tranquil-white.png,
 
-body/ruby_skeleton.png,
+moonbirds/body/crescent-gray.png,
+moonbirds/body/emperor-gray.png,
+moonbirds/body/professor-gray.png,
+moonbirds/body/tabby-gray.png,
 
-body/skeleton.png,
+moonbirds/body/brave-black.png,
+moonbirds/body/crescent-black.png,
+moonbirds/body/emperor-black.png,
+moonbirds/body/stark-black.png,
+moonbirds/body/tranquil-black.png,
 
-body/robot.png,
+moonbirds/body/brave-green.png,
+moonbirds/body/crescent-green.png,
+moonbirds/body/emperor-green.png,
+moonbirds/body/guardian-green.png,
+
+moonbirds/body/crescent-pink.png,
+moonbirds/body/guardian-pink.png,
+moonbirds/body/sage-pink.png,
+moonbirds/body/stark-pink.png,
+moonbirds/body/tabby-pink.png,
+moonbirds/body/tranquil-pink.png,
+
+moonbirds/body/brave-purple.png,
+moonbirds/body/sage-purple.png,
+moonbirds/body/stark-purple.png,
+moonbirds/body/tabby-purple.png,
+moonbirds/body/tranquil-blue.png,
+
+moonbirds/body/crescent-blue.png,
+moonbirds/body/professor-blue.png,
+moonbirds/body/stark-blue.png,
+
+
+moonbirds/body/crescent-golden.png,
+moonbirds/body/emperor-golden.png,
+moonbirds/body/professor-golden.png,
+moonbirds/body/sage-golden.png,
+
+moonbirds/body/ruby_skeleton.png,
+
+moonbirds/body/skeleton.png,
+
+moonbirds/body/robot.png,
+
+
+##################
+#  bodies  (legendary readymades)
+
+moonbirds/body_legendary/brave-jade.png,
+moonbirds/body_legendary/crescent-jade.png,
+
+moonbirds/body_legendary/brave-cosmic.png,
+moonbirds/body_legendary/crescent-cosmic.png,
+
+moonbirds/body_legendary/brave-enlightened.png,
+moonbirds/body_legendary/crescent-enlightened.png,
+
+moonbirds/body_legendary/brave-glitch.png,
+moonbirds/body_legendary/guardian-glitch.png,
 
 
 
 ######################
 #  beak  (+color)
 
-beak/small-gray.png,
-beak/small-orange.png,
-beak/small-ruby.png,
+moonbirds/beak/small-gray.png,
+moonbirds/beak/small-orange.png,
+moonbirds/beak/small-ruby.png,
 
-beak/small-skeleton.png,
-beak/short-skeleton.png,
-beak/long-skeleton.png,
+moonbirds/beak/small-skeleton.png,
+moonbirds/beak/short-skeleton.png,
+moonbirds/beak/long-skeleton.png,
 
-beak/small-robot.png,
-beak/short-robot.png,
-beak/long-robot.png,
+moonbirds/beak/small-robot.png,
+moonbirds/beak/short-robot.png,
+moonbirds/beak/long-robot.png,
+
+moonbirds/beak/small-golden.png,
 
 
 #########################
 #  eyes  (+color)
 
-eyes/open-blue.png,
-eyes/open-green.png,
-eyes/open-purple.png,
-eyes/open-red.png,
-eyes/open-white.png,
+moonbirds/eyes/open-blue.png,
+moonbirds/eyes/open-green.png,
+moonbirds/eyes/open-purple.png,
+moonbirds/eyes/open-red.png,
+moonbirds/eyes/open-white.png,
 
-eyes/adorable-skeleton.png,
-eyes/angry-skeleton.png,
-eyes/open-skeleton.png,
-eyes/relaxed-skeleton.png,
+moonbirds/eyes/adorable-skeleton.png,
+moonbirds/eyes/angry-skeleton.png,
+moonbirds/eyes/open-skeleton.png,
+moonbirds/eyes/relaxed-skeleton.png,
 
-eyes/angry-robot.png,
-eyes/open-robot.png,
+moonbirds/eyes/angry-robot.png,
+moonbirds/eyes/open-robot.png,
+
+moonbirds/eyes/angry-golden.png,
+moonbirds/eyes/open-golden.png,
+moonbirds/eyes/side-eye-golden.png,
+
 
 
 
 ###############
 #  eyewear
 
-eyewear/3d_glasses.png,  3D Glasses
-eyewear/black-rimmed_glasses.png,  Black-Rimmed Glasses
-eyewear/eyepatch.png,
-eyewear/gazelles.png,
-eyewear/jobs_glasses.png,
-eyewear/rose-colored_glasses.png,
-eyewear/sunglasses.png,
-eyewear/visor.png,
+moonbirds/eyewear/3d_glasses.png,  3D Glasses
+moonbirds/eyewear/black-rimmed_glasses.png,  Black-Rimmed Glasses
+moonbirds/eyewear/eyepatch.png,
+moonbirds/eyewear/gazelles.png,
+moonbirds/eyewear/jobs_glasses.png,
+moonbirds/eyewear/rose-colored_glasses.png,
+moonbirds/eyewear/sunglasses.png,
+moonbirds/eyewear/visor.png,
+
+starbirds/eyes/aviators.png,
+starbirds/eyes/chill.png,
+starbirds/eyes/green_shades.png,
+starbirds/eyes/neon_shades.png,
+starbirds/eyes/rainbow_shades.png,
+starbirds/eyes/red_shades.png,
+starbirds/eyes/round_glasses.png,
+starbirds/eyes/sunset_shades.png,
+starbirds/eyes/vipers.png,
+
+
 
 
 #######################
 #  headwear
 
-headwear/aviators_cap.png,     Aviator's Cap
-headwear/backwards_hat.png,
-headwear/bandana.png,
-headwear/beanie.png,
-headwear/bow.png,
-headwear/bucket_hat.png,
-headwear/captains_cap.png,   Captain's Cap
-headwear/chromie.png,
-headwear/cowboy_hat.png,
-headwear/crescent_talisman.png,
-headwear/dancing_flame.png,
-headwear/diamond.png,
-headwear/durag.png,
-headwear/fire.png,
-headwear/flowers.png,
-headwear/forest_ranger.png,
-headwear/grail.png,
-headwear/gremplin.png,
-headwear/halo.png,
-headwear/headband.png,
-headwear/headphones.png,
-headwear/heros_cap.png,       Hero's Cap
-headwear/karate_band.png,
-headwear/lincoln.png,
-headwear/mohawk_green.png,  Mohawk (Green)
-headwear/mohawk_pink.png,  Mohawk (Pink)
-headwear/moon_hat.png,
-headwear/pirates_hat.png,    Pirate's Hat
-headwear/queens_crown.png,   Queen's Crown
-headwear/raincloud.png
-headwear/rubber_duck.png
-headwear/skully.png
-headwear/tiara.png
-headwear/tiny_crown.png
-headwear/witchs_hat.png,    Witch's Hat
-headwear/wizards_hat.png,    Wizard's Hat
+moonbirds/headwear/aviators_cap.png,     Aviator's Cap
+moonbirds/headwear/backwards_hat.png,
+moonbirds/headwear/bandana.png,
+moonbirds/headwear/beanie.png,
+moonbirds/headwear/bow.png,
+moonbirds/headwear/bucket_hat.png,
+moonbirds/headwear/captains_cap.png,   Captain's Cap
+moonbirds/headwear/cowboy_hat.png,
+moonbirds/headwear/durag.png,
+moonbirds/headwear/flowers.png,
+moonbirds/headwear/forest_ranger.png,
+moonbirds/headwear/headband.png,
+moonbirds/headwear/headphones.png,
+moonbirds/headwear/heros_cap.png,       Hero's Cap
+moonbirds/headwear/karate_band.png,
+moonbirds/headwear/lincoln.png,
+moonbirds/headwear/mohawk_green.png,  Mohawk (Green)
+moonbirds/headwear/mohawk_pink.png,  Mohawk (Pink)
+moonbirds/headwear/moon_hat.png,
+moonbirds/headwear/pirates_hat.png,    Pirate's Hat
+moonbirds/headwear/queens_crown.png,   Queen's Crown
+moonbirds/headwear/tiara.png
+moonbirds/headwear/witchs_hat.png,    Witch's Hat
+moonbirds/headwear/wizards_hat.png,    Wizard's Hat
+
+moonbirds/headwear/chromie.png,
+moonbirds/headwear/crescent_talisman.png,
+moonbirds/headwear/dancing_flame.png,
+moonbirds/headwear/fire.png,
+moonbirds/headwear/diamond.png,
+moonbirds/headwear/grail.png,
+moonbirds/headwear/gremplin.png,
+moonbirds/headwear/halo.png,
+moonbirds/headwear/raincloud.png,
+moonbirds/headwear/rubber_duck.png,
+moonbirds/headwear/skully.png,
+moonbirds/headwear/tiny_crown.png,
+
+# more headwear
+
+starbirds/head/black_red.png,
+starbirds/head/cowboy.png,
+starbirds/head/crown.png,
+starbirds/head/gold.png,
+starbirds/head/gray_hat.png,
+starbirds/head/blue_bucket.png,
+starbirds/head/red_bucket.png,
+starbirds/head/white_bucket_hat.png,
+
+starbirds/head/star.png,
+
+
+
+# more fast food headwear
+
+fastfoodmoonbirds/headwear/mcdonalds_hat.png,
+fastfoodmoonbirds/headwear/mcdonalds_visor.png,
+fastfoodmoonbirds-ii/headwear/macdonalds-red.png,
+fastfoodmoonbirds-iii/headwear/mcdonalds-red.png,
+fastfoodmoonbirds/headwear/mcdonalds_bucket_hat.png,
+fastfoodmoonbirds-ii/headwear/macdonalds-black.png,
+fastfoodmoonbirds-ii/headwear/macdonalds-white.png,
+
+fastfoodmoonbirds/headwear/burger_king_hat.png,
+fastfoodmoonbirds-ii/headwear/burger_king.png,
+fastfoodmoonbirds-iii/headwear/burger_kings_crown.png,
+
+fastfoodmoonbirds/headwear/kfc_bucket_hat.png,
+fastfoodmoonbirds-iii/headwear/kfc_family_bucket.png,
+
+fastfoodmoonbirds/headwear/chick-fil-a_hat.png,
+
+fastfoodmoonbirds/headwear/dennys_hat.png,
+fastfoodmoonbirds/headwear/dominos_hat.png,
+fastfoodmoonbirds-ii/headwear/dominos_pizza.png,
+fastfoodmoonbirds/headwear/dunkin_donuts_hat.png,
+fastfoodmoonbirds-ii/headwear/dunkin_donuts.png,
+fastfoodmoonbirds/headwear/hooters_hat.png,
+fastfoodmoonbirds/headwear/in-n-out_burger_hat.png,
+fastfoodmoonbirds-iii/headwear/in-n-out.png,
+
+fastfoodmoonbirds-ii/headwear/wendys.png,
+fastfoodmoonbirds-ii/headwear/white_castle.png,
+
+
+fastfoodmoonbirds/headwear/pizza_hut_hat.png,
+fastfoodmoonbirds-ii/headwear/pizzahut.png,
+fastfoodmoonbirds/headwear/subway_visor_2.png,
+fastfoodmoonbirds-ii/headwear/subway.png,
+fastfoodmoonbirds/headwear/taco_bell_hat.png,
+fastfoodmoonbirds/headwear/walmart_hat.png,
+fastfoodmoonbirds/headwear/walmart_hat_2.png,
+
+fastfoodmoonbirds/headwear/starbucks_hat.png,
+fastfoodmoonbirds-iii/headwear/starbucks.png,
+fastfoodmoonbirds-iii/headwear/coffee_boy.png,
+
+fastfoodmoonbirds/headwear/ben-n-jerrys_bucket_hat.png,
+
+fastfoodmoonbirds-ii/headwear/chef-red.png,
+fastfoodmoonbirds-ii/headwear/chef-white.png,
+
+fastfoodmoonbirds-iii/headwear/grill_cook.png,
+
+
+fastfoodmoonbirds-iii/accessory/drive-thru-on-duty.png,
+
+fastfoodmoonbirds-ii/headwear/burger.png,
+fastfoodmoonbirds-ii/headwear/fries.png,
+fastfoodmoonbirds-ii/headwear/chicken.png,
+fastfoodmoonbirds-ii/headwear/cola.png,
+
+fastfoodmoonbirds/headwear/popcorn.png,
+fastfoodmoonbirds/headwear/ice_cream_cone.png,
+fastfoodmoonbirds/headwear/taco.png,
+
 
 
 ################################
 #  outerwear
 
-outerwear/hoodie.png,        Hoodie
-outerwear/hoodie_down.png,   Hoodie Down
-outerwear/punk_jacket.png,   Punk Jacket
+moonbirds/outerwear/hoodie.png,        Hoodie
+moonbirds/outerwear/hoodie_down.png,   Hoodie Down
+moonbirds/outerwear/punk_jacket.png,   Punk Jacket
+
+starbirds/clothes/blue_hoodie.png,
+starbirds/clothes/green_hoodie.png,
+starbirds/clothes/blue_shirt.png,
+starbirds/clothes/green.png,
+starbirds/clothes/orange.png,
+starbirds/clothes/red.png,
+starbirds/clothes/tee.png,
+starbirds/clothes/blue_scarf.png,
+starbirds/clothes/green_scarf.png,
+starbirds/clothes/red_scarf.png,
+
+
+fastfoodmoonbirds/outfit/el_pollo_loco_mascot.png,
+
+fastfoodmoonbirds-iii/outerwear/mcdonalds.png,
+fastfoodmoonbirds-iii/outerwear/mcdonalds_classic.png,
+fastfoodmoonbirds-iii/outerwear/mcdonalds_old_skool.png,
+fastfoodmoonbirds-iii/outerwear/manager.png,
+fastfoodmoonbirds-iii/outerwear/kfc_shirt.png,
+fastfoodmoonbirds-iii/outerwear/starbucks_apron.png,
+fastfoodmoonbirds/outfit/starbucks_apron.png,
+
+fastfoodmoonbirds-iii/outerwear/hibachi.png,

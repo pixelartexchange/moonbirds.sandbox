@@ -23,8 +23,14 @@ spritesheet = ImageComposite.new( cols, rows, width: 42, height: 42 )
 ####
 #  add attributes
 attributes.each do |rec|
-  path = rec['path']
-  spritesheet << Image.read( "./attributes/#{path}" )
+  parts = rec['path'].split( '/')
+  ## auto-add  /attributes directory (after first part)
+  ##   e.g. moonbirds/headwear/beanie.png =>
+  ##        moonbirds/attributes/beanie.png
+
+  path = './' + parts[0] + '/attributes/' + parts[1..-1].join('/')
+
+  spritesheet << Image.read( path )
 end
 
 spritesheet.save( "./tmp/spritesheet.png" )
