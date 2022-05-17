@@ -157,6 +157,16 @@ Source: [**moonbirds/starbucks »**](moonbirds/starbucks.rb)
 
 
 
+## Spritesheet (Attributes) - What's News?
+
+
+Example - Moonbirds (& Friends) Spritesheet v0.3 - 200+ Attributes (in 42x42px)
+
+![](i/spritesheet.png)
+
+Source: [**spritsheet »**](spritesheet)
+
+
 
 
 
