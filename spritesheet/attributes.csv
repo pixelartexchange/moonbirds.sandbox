@@ -1,4 +1,9 @@
-path,  name,  category
+path, name,  more_names
+
+
+##
+# to be done - add category column/field  e.g. body/eyes/etc. or such
+
 
 ##################
 #  bodies
@@ -136,7 +141,7 @@ moonbirds/eyes/side-eye-golden.png,
 ###############
 #  eyewear
 
-moonbirds/eyewear/3d_glasses.png,  3D Glasses
+moonbirds/eyewear/3d_glasses.png,            3D Glasses
 moonbirds/eyewear/black-rimmed_glasses.png,  Black-Rimmed Glasses
 moonbirds/eyewear/eyepatch.png,
 moonbirds/eyewear/gazelles.png,
@@ -168,7 +173,7 @@ moonbirds/headwear/beanie.png,
 moonbirds/headwear/bow.png,
 moonbirds/headwear/bucket_hat.png,
 moonbirds/headwear/captains_cap.png,   Captain's Cap
-moonbirds/headwear/cowboy_hat.png,
+moonbirds/headwear/cowboy_hat.png,     Cowboy Hat 1, Cowboy Hat
 moonbirds/headwear/durag.png,
 moonbirds/headwear/flowers.png,
 moonbirds/headwear/forest_ranger.png,
@@ -201,14 +206,14 @@ moonbirds/headwear/tiny_crown.png,
 
 # more headwear
 
-starbirds/head/black_red.png,
-starbirds/head/cowboy.png,
+starbirds/head/black_red.png,   Black Red Hat
+starbirds/head/cowboy.png,      Cowboy Hat 2
 starbirds/head/crown.png,
 starbirds/head/gold.png,
 starbirds/head/gray_hat.png,
 starbirds/head/blue_bucket.png,
 starbirds/head/red_bucket.png,
-starbirds/head/white_bucket_hat.png,
+starbirds/head/white_bucket_hat.png,    White Bucket
 
 starbirds/head/star.png,
 
@@ -216,49 +221,49 @@ starbirds/head/star.png,
 
 # more fast food headwear
 
-fastfoodmoonbirds/headwear/mcdonalds_hat.png,
-fastfoodmoonbirds/headwear/mcdonalds_visor.png,
-fastfoodmoonbirds-ii/headwear/macdonalds-red.png,
-fastfoodmoonbirds-iii/headwear/mcdonalds-red.png,
-fastfoodmoonbirds/headwear/mcdonalds_bucket_hat.png,
-fastfoodmoonbirds-ii/headwear/macdonalds-black.png,
-fastfoodmoonbirds-ii/headwear/macdonalds-white.png,
+fastfoodmoonbirds/headwear/mcdonalds_hat.png,         McDonald's 1, McDonald's
+fastfoodmoonbirds/headwear/mcdonalds_visor.png,       McDonald's 2, McDonald's Visor
+fastfoodmoonbirds-ii/headwear/macdonalds-red.png,     McDonald's 3, McDonald's Red 1 | McDonald's Red
+fastfoodmoonbirds-iii/headwear/mcdonalds-red.png,     McDonald's 4, McDonald's Red 2
+fastfoodmoonbirds/headwear/mcdonalds_bucket_hat.png,  McDonald's 5, McDonald's Bucket Black
+fastfoodmoonbirds-ii/headwear/macdonalds-black.png,   McDonald's 6, McDonald's Black
+fastfoodmoonbirds-ii/headwear/macdonalds-white.png,   McDonald's 7, McDonald's White
 
-fastfoodmoonbirds/headwear/burger_king_hat.png,
-fastfoodmoonbirds-ii/headwear/burger_king.png,
-fastfoodmoonbirds-iii/headwear/burger_kings_crown.png,
+fastfoodmoonbirds/headwear/burger_king_hat.png,         Burger King 1, Burger King
+fastfoodmoonbirds-ii/headwear/burger_king.png,          Burger King 2
+fastfoodmoonbirds-iii/headwear/burger_kings_crown.png,  Burger King Crown
 
-fastfoodmoonbirds/headwear/kfc_bucket_hat.png,
-fastfoodmoonbirds-iii/headwear/kfc_family_bucket.png,
+fastfoodmoonbirds/headwear/kfc_bucket_hat.png,          KF1 1, KFC
+fastfoodmoonbirds-iii/headwear/kfc_family_bucket.png,   KFC 2, KFC Family Bucket
 
-fastfoodmoonbirds/headwear/chick-fil-a_hat.png,
+fastfoodmoonbirds/headwear/chick-fil-a_hat.png,      Chick-Fil-A
 
-fastfoodmoonbirds/headwear/dennys_hat.png,
-fastfoodmoonbirds/headwear/dominos_hat.png,
-fastfoodmoonbirds-ii/headwear/dominos_pizza.png,
-fastfoodmoonbirds/headwear/dunkin_donuts_hat.png,
-fastfoodmoonbirds-ii/headwear/dunkin_donuts.png,
-fastfoodmoonbirds/headwear/hooters_hat.png,
-fastfoodmoonbirds/headwear/in-n-out_burger_hat.png,
-fastfoodmoonbirds-iii/headwear/in-n-out.png,
+fastfoodmoonbirds/headwear/dennys_hat.png,            Denny's
+fastfoodmoonbirds/headwear/dominos_hat.png,           Domino's 1, Domino's
+fastfoodmoonbirds-ii/headwear/dominos_pizza.png,      Domino's 2
+fastfoodmoonbirds/headwear/dunkin_donuts_hat.png,      Dunkin' Donuts 1, Dunkin' Donuts
+fastfoodmoonbirds-ii/headwear/dunkin_donuts.png,       Dunkin' Donuts 2
+fastfoodmoonbirds/headwear/hooters_hat.png,            Hooters
+fastfoodmoonbirds/headwear/in-n-out_burger_hat.png,    In-N-Out 2
+fastfoodmoonbirds-iii/headwear/in-n-out.png,           In-N-Out 1, In-N-Out
 
 fastfoodmoonbirds-ii/headwear/wendys.png,
 fastfoodmoonbirds-ii/headwear/white_castle.png,
 
 
-fastfoodmoonbirds/headwear/pizza_hut_hat.png,
-fastfoodmoonbirds-ii/headwear/pizzahut.png,
-fastfoodmoonbirds/headwear/subway_visor_2.png,
-fastfoodmoonbirds-ii/headwear/subway.png,
-fastfoodmoonbirds/headwear/taco_bell_hat.png,
-fastfoodmoonbirds/headwear/walmart_hat.png,
-fastfoodmoonbirds/headwear/walmart_hat_2.png,
+fastfoodmoonbirds/headwear/pizza_hut_hat.png,     Pizza Hut 1
+fastfoodmoonbirds-ii/headwear/pizzahut.png,       Pizza Hut 2
+fastfoodmoonbirds/headwear/subway_visor_2.png,    Subway 2, Subway Visor
+fastfoodmoonbirds-ii/headwear/subway.png,         Subway 1, Subway
+fastfoodmoonbirds/headwear/taco_bell_hat.png,    Taco Bell
+fastfoodmoonbirds/headwear/walmart_hat.png,      Walmart 1  Walmart
+fastfoodmoonbirds/headwear/walmart_hat_2.png,    Walmart 2,
 
-fastfoodmoonbirds/headwear/starbucks_hat.png,
-fastfoodmoonbirds-iii/headwear/starbucks.png,
+fastfoodmoonbirds/headwear/starbucks_hat.png,   Starbucks 1, Starbucks
+fastfoodmoonbirds-iii/headwear/starbucks.png,   Starbucks 2,
 fastfoodmoonbirds-iii/headwear/coffee_boy.png,
 
-fastfoodmoonbirds/headwear/ben-n-jerrys_bucket_hat.png,
+fastfoodmoonbirds/headwear/ben-n-jerrys_bucket_hat.png,  Ben & Jerry's
 
 fastfoodmoonbirds-ii/headwear/chef-red.png,
 fastfoodmoonbirds-ii/headwear/chef-white.png,
@@ -286,12 +291,12 @@ moonbirds/outerwear/hoodie.png,        Hoodie
 moonbirds/outerwear/hoodie_down.png,   Hoodie Down
 moonbirds/outerwear/punk_jacket.png,   Punk Jacket
 
-starbirds/clothes/blue_hoodie.png,
-starbirds/clothes/green_hoodie.png,
-starbirds/clothes/blue_shirt.png,
-starbirds/clothes/green.png,
-starbirds/clothes/orange.png,
-starbirds/clothes/red.png,
+starbirds/clothes/blue_hoodie.png,        Blue Hoodie
+starbirds/clothes/green_hoodie.png,       Green Hoodie
+starbirds/clothes/blue_shirt.png,         Blue Shirt
+starbirds/clothes/green.png,              Green Shirt
+starbirds/clothes/orange.png,             Orange Shirt
+starbirds/clothes/red.png,                Red Shirt
 starbirds/clothes/tee.png,
 starbirds/clothes/blue_scarf.png,
 starbirds/clothes/green_scarf.png,
@@ -300,12 +305,12 @@ starbirds/clothes/red_scarf.png,
 
 fastfoodmoonbirds/outfit/el_pollo_loco_mascot.png,
 
-fastfoodmoonbirds-iii/outerwear/mcdonalds.png,
-fastfoodmoonbirds-iii/outerwear/mcdonalds_classic.png,
-fastfoodmoonbirds-iii/outerwear/mcdonalds_old_skool.png,
-fastfoodmoonbirds-iii/outerwear/manager.png,
-fastfoodmoonbirds-iii/outerwear/kfc_shirt.png,
-fastfoodmoonbirds-iii/outerwear/starbucks_apron.png,
-fastfoodmoonbirds/outfit/starbucks_apron.png,
+fastfoodmoonbirds-iii/outerwear/mcdonalds.png,           McDonald's Shirt
+fastfoodmoonbirds-iii/outerwear/mcdonalds_classic.png,   McDonald's Shirt (Classic)
+fastfoodmoonbirds-iii/outerwear/mcdonalds_old_skool.png, McDonald's Shirt (Old Skool)
+fastfoodmoonbirds-iii/outerwear/manager.png,           Manager Shirt
+fastfoodmoonbirds-iii/outerwear/kfc_shirt.png,         KFC Shirt
+fastfoodmoonbirds-iii/outerwear/starbucks_apron.png,  Starbucks Apron 1, Starbucks Apron
+fastfoodmoonbirds/outfit/starbucks_apron.png,         Starbucks Apron 2
 
 fastfoodmoonbirds-iii/outerwear/hibachi.png,
