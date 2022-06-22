@@ -8,149 +8,259 @@ path, name,  more_names
 ##################
 #  bodies
 
-moonbirds/body/brave-brown.png,
-moonbirds/body/crescent-brown.png,
-moonbirds/body/emperor-brown.png,
-moonbirds/body/guardian-brown.png,
-moonbirds/body/sage-brown.png,
-moonbirds/body/stark-brown.png,
-moonbirds/body/tabby-brown.png,
-moonbirds/body/tranquil-brown.png,
+moonbirds/body/brave-black.png, brave black, black brave
+moonbirds/body/crescent-black.png, crescent black, black crescent
+moonbirds/body/emperor-black.png, emperor black, black emperor
+moonbirds/body/guardian-black.png, guardian black, black guardian
+moonbirds/body/professor-black.png, professor black, black professor
+moonbirds/body/sage-black.png, sage black, black sage
+moonbirds/body/stark-black.png, stark black, black stark
+moonbirds/body/tabby-black.png, tabby black, black tabby
+moonbirds/body/tranquil-black.png, tranquil black, black tranquil
 
-moonbirds/body/brave-red.png,
-moonbirds/body/crescent-red.png,
-moonbirds/body/emperor-red.png,
-moonbirds/body/guardian-red.png,
-moonbirds/body/professor-red.png,
-moonbirds/body/sage-red.png,
-moonbirds/body/tabby-red.png,
-moonbirds/body/tranquil-red.png,
+moonbirds/body/brave-blue.png, brave blue, blue brave
+moonbirds/body/crescent-blue.png, crescent blue, blue crescent
+moonbirds/body/emperor-blue.png, emperor blue, blue emperor
+moonbirds/body/guardian-blue.png, guardian blue, blue guardian
+moonbirds/body/professor-blue.png, professor blue, blue professor
+moonbirds/body/sage-blue.png, sage blue, blue sage
+moonbirds/body/stark-blue.png, stark blue, blue stark
+moonbirds/body/tabby-blue.png, tabby blue, blue tabby
+moonbirds/body/tranquil-blue.png, tranquil blue, blue tranquil
 
-moonbirds/body/emperor-white.png,
-moonbirds/body/guardian-white.png,
-moonbirds/body/professor-white.png,
-moonbirds/body/stark-white.png,
-moonbirds/body/tabby-white.png,
-moonbirds/body/tranquil-white.png,
+moonbirds/body/brave-brown.png, brave brown, brown brave
+moonbirds/body/crescent-brown.png, crescent brown, brown crescent
+moonbirds/body/emperor-brown.png, emperor brown, brown emperor
+moonbirds/body/guardian-brown.png, guardian brown, brown guardian
+moonbirds/body/professor-brown.png, professor brown, brown professor
+moonbirds/body/sage-brown.png, sage brown, brown sage
+moonbirds/body/stark-brown.png, stark brown, brown stark
+moonbirds/body/tabby-brown.png, tabby brown, brown tabby
+moonbirds/body/tranquil-brown.png, tranquil brown, brown tranquil
 
-moonbirds/body/crescent-gray.png,
-moonbirds/body/emperor-gray.png,
-moonbirds/body/professor-gray.png,
-moonbirds/body/tabby-gray.png,
+moonbirds/body/brave-gray.png, brave gray, gray brave
+moonbirds/body/crescent-gray.png, crescent gray, gray crescent
+moonbirds/body/emperor-gray.png, emperor gray, gray emperor
+moonbirds/body/guardian-gray.png, guardian gray, gray guardian
+moonbirds/body/professor-gray.png, professor gray, gray professor
+moonbirds/body/sage-gray.png, sage gray, gray sage
+moonbirds/body/stark-gray.png, stark gray, gray stark
+moonbirds/body/tabby-gray.png, tabby gray, gray tabby
+moonbirds/body/tranquil-gray.png, tranquil gray, gray tranquil
 
-moonbirds/body/brave-black.png,
-moonbirds/body/crescent-black.png,
-moonbirds/body/emperor-black.png,
-moonbirds/body/stark-black.png,
-moonbirds/body/tranquil-black.png,
+moonbirds/body/brave-green.png, brave green, green brave
+moonbirds/body/crescent-green.png, crescent green, green crescent
+moonbirds/body/emperor-green.png, emperor green, green emperor
+moonbirds/body/guardian-green.png, guardian green, green guardian
+moonbirds/body/professor-green.png, professor green, green professor
+moonbirds/body/sage-green.png, sage green, green sage
+moonbirds/body/stark-green.png, stark green, green stark
+moonbirds/body/tabby-green.png, tabby green, green tabby
+moonbirds/body/tranquil-green.png, tranquil green, green tranquil
 
-moonbirds/body/brave-green.png,
-moonbirds/body/crescent-green.png,
-moonbirds/body/emperor-green.png,
-moonbirds/body/guardian-green.png,
+moonbirds/body/brave-pink.png, brave pink, pink brave
+moonbirds/body/crescent-pink.png, crescent pink, pink crescent
+moonbirds/body/emperor-pink.png, emperor pink, pink emperor
+moonbirds/body/guardian-pink.png, guardian pink, pink guardian
+moonbirds/body/professor-pink.png, professor pink, pink professor
+moonbirds/body/sage-pink.png, sage pink, pink sage
+moonbirds/body/stark-pink.png, stark pink, pink stark
+moonbirds/body/tabby-pink.png, tabby pink, pink tabby
+moonbirds/body/tranquil-pink.png, tranquil pink, pink tranquil
 
-moonbirds/body/crescent-pink.png,
-moonbirds/body/guardian-pink.png,
-moonbirds/body/sage-pink.png,
-moonbirds/body/stark-pink.png,
-moonbirds/body/tabby-pink.png,
-moonbirds/body/tranquil-pink.png,
+moonbirds/body/brave-purple.png, brave purple, purple brave
+moonbirds/body/crescent-purple.png, crescent purple, purple crescent
+moonbirds/body/emperor-purple.png, emperor purple, purple emperor
+moonbirds/body/guardian-purple.png, guardian purple, purple guardian
+moonbirds/body/professor-purple.png, professor purple, purple professor
+moonbirds/body/sage-purple.png, sage purple, purple sage
+moonbirds/body/stark-purple.png, stark purple, purple stark
+moonbirds/body/tabby-purple.png, tabby purple, purple tabby
+moonbirds/body/tranquil-purple.png, tranquil purple, purple tranquil
 
-moonbirds/body/brave-purple.png,
-moonbirds/body/sage-purple.png,
-moonbirds/body/stark-purple.png,
-moonbirds/body/tabby-purple.png,
-moonbirds/body/tranquil-blue.png,
+moonbirds/body/brave-red.png, brave red, red brave
+moonbirds/body/crescent-red.png, crescent red, red crescent
+moonbirds/body/emperor-red.png, emperor red, red emperor
+moonbirds/body/guardian-red.png, guardian red, red guardian
+moonbirds/body/professor-red.png, professor red, red professor
+moonbirds/body/sage-red.png, sage red, red sage
+moonbirds/body/stark-red.png, stark red, red stark
+moonbirds/body/tabby-red.png, tabby red, red tabby
+moonbirds/body/tranquil-red.png, tranquil red, red tranquil
 
-moonbirds/body/crescent-blue.png,
-moonbirds/body/professor-blue.png,
-moonbirds/body/stark-blue.png,
+moonbirds/body/brave-white.png, brave white, white brave
+moonbirds/body/crescent-white.png, crescent white, white crescent
+moonbirds/body/emperor-white.png, emperor white, white emperor
+moonbirds/body/guardian-white.png, guardian white, white guardian
+moonbirds/body/professor-white.png, professor white, white professor
+moonbirds/body/sage-white.png, sage white, white sage
+moonbirds/body/stark-white.png, stark white, white stark
+moonbirds/body/tabby-white.png, tabby white, white tabby
+moonbirds/body/tranquil-white.png, tranquil white, white tranquil
 
 
-moonbirds/body/crescent-golden.png,
-moonbirds/body/emperor-golden.png,
-moonbirds/body/professor-golden.png,
-moonbirds/body/sage-golden.png,
 
-moonbirds/body/ruby_skeleton.png,
+moonbirds/body_golden/body-I-golden_crescent.png,  golden crescent, crescent golden
+moonbirds/body_golden/body-I-golden_emperor.png,   golden emperor,   emperor golden
+moonbirds/body_golden/body-I-golden_professor.png, golden professor,  professor golden
+moonbirds/body_golden/body-I-golden_sage.png,      golden sage,    sage golden
 
-moonbirds/body/skeleton.png,
+moonbirds/body_bone/body-I-ruby_skeleton.png,   ruby skeleton, skeleton ruby
 
-moonbirds/body/robot.png,
+moonbirds/body_bone/body-I-skeleton.png,  skeleton,
+
+moonbirds/body_metal/body-I-robot.png,   robot,
+
 
 
 ##################
 #  bodies  (legendary readymades)
 
-moonbirds/body_legendary/brave-jade.png,
-moonbirds/body_legendary/crescent-jade.png,
+moonbirds/body_legendary/jade_brave.png,     jade brave,    brave jade
+moonbirds/body_legendary/jade_crescent.png,  jade crescent, crescent jade
 
-moonbirds/body_legendary/brave-cosmic.png,
-moonbirds/body_legendary/crescent-cosmic.png,
+moonbirds/body_legendary/cosmic_brave.png,    cosmic brave,    brave cosmic
+moonbirds/body_legendary/cosmic_crescent.png, cosmic crescent, crescent cosmic
 
-moonbirds/body_legendary/brave-enlightened.png,
-moonbirds/body_legendary/crescent-enlightened.png,
+moonbirds/body_legendary/enlightened_brave.png,    enlightened brave, brave enlightened
+moonbirds/body_legendary/enlightened_crescent.png, enlightened crescent, crescent enlightened
 
-moonbirds/body_legendary/brave-glitch.png,
-moonbirds/body_legendary/guardian-glitch.png,
+moonbirds/body_legendary/glitch_brave.png,    glitch brave, brave glitch
+moonbirds/body_legendary/glitch_guardian.png, glitch guardian, guardian glitch
 
 
 
 ######################
 #  beak  (+color)
 
-moonbirds/beak/small-gray.png,
-moonbirds/beak/small-orange.png,
-moonbirds/beak/small-ruby.png,
+moonbirds/beak/small-gray.png,     small gray,    gray small
+moonbirds/beak/small-orange.png,   small orange,  orange small
 
-moonbirds/beak/small-skeleton.png,
-moonbirds/beak/short-skeleton.png,
-moonbirds/beak/long-skeleton.png,
+moonbirds/beak/short-gray.png,     short gray,    gray short
+moonbirds/beak/short-orange.png,   short orange,  orange short
 
-moonbirds/beak/small-robot.png,
-moonbirds/beak/short-robot.png,
-moonbirds/beak/long-robot.png,
+moonbirds/beak/long-gray.png,       long gray,   gray long
+moonbirds/beak/long-orange.png,     long orange, orange long
 
-moonbirds/beak/small-golden.png,
+moonbirds/body_bone/beak-I-ruby_small.png,   ruby small,   small ruby
+moonbirds/body_bone/beak-I-ruby_short.png,   ruby short,   short ruby
+moonbirds/body_bone/beak-I-ruby_long.png,    ruby long,    long ruby
+moonbirds/body_bone/beak-I-skeleton_small.png,  skeleton small,   small skeleton
+moonbirds/body_bone/beak-I-skeleton_short.png,  skeleton short,   short skeleton
+moonbirds/body_bone/beak-I-skeleton_long.png,   skeleton long,    long skeleton
+
+moonbirds/body_metal/beak-I-robot_small.png,   robot small,  small robot
+moonbirds/body_metal/beak-I-robot_short.png,   robot short,  short robot
+moonbirds/body_metal/beak-I-robot_long.png,    robot long,   long robot
+
+moonbirds/body_golden/beak-I-golden_small.png,  small golden, golden small
+
 
 
 #########################
 #  eyes  (+color)
 
-moonbirds/eyes/open-blue.png,
-moonbirds/eyes/open-green.png,
-moonbirds/eyes/open-purple.png,
-moonbirds/eyes/open-red.png,
-moonbirds/eyes/open-white.png,
+moonbirds/eyes_i/angry-gray.png, angry gray, gray angry
+moonbirds/eyes_i/discerning-gray.png, discerning gray, gray discerning
+moonbirds/eyes_i/focused-gray.png, focused gray, gray focused
+moonbirds/eyes_i/open-gray.png, open gray, gray open
+moonbirds/eyes_i/relaxed-gray.png, relaxed gray, gray relaxed
+moonbirds/eyes_i/side-eye-gray.png, side-eye gray, gray side-eye
 
-moonbirds/eyes/adorable-skeleton.png,
-moonbirds/eyes/angry-skeleton.png,
-moonbirds/eyes/open-skeleton.png,
-moonbirds/eyes/relaxed-skeleton.png,
+moonbirds/eyes_i/angry-blue.png, angry blue, blue angry
+moonbirds/eyes_i/discerning-blue.png, discerning blue, blue discerning
+moonbirds/eyes_i/focused-blue.png, focused blue, blue focused
+moonbirds/eyes_i/open-blue.png, open blue, blue open
+moonbirds/eyes_i/relaxed-blue.png, relaxed blue, blue relaxed
+moonbirds/eyes_i/side-eye-blue.png, side-eye blue, blue side-eye
 
-moonbirds/eyes/angry-robot.png,
-moonbirds/eyes/open-robot.png,
+moonbirds/eyes_i/angry-yellow.png, angry yellow, yellow angry
+moonbirds/eyes_i/discerning-yellow.png, discerning yellow, yellow discerning
+moonbirds/eyes_i/focused-yellow.png, focused yellow, yellow focused
+moonbirds/eyes_i/open-yellow.png, open yellow, yellow open
+moonbirds/eyes_i/relaxed-yellow.png, relaxed yellow, yellow relaxed
+moonbirds/eyes_i/side-eye-yellow.png, side-eye yellow, yellow side-eye
 
-moonbirds/eyes/angry-golden.png,
-moonbirds/eyes/open-golden.png,
-moonbirds/eyes/side-eye-golden.png,
+moonbirds/eyes_i/angry-green.png, angry green, green angry
+moonbirds/eyes_i/discerning-green.png, discerning green, green discerning
+moonbirds/eyes_i/focused-green.png, focused green, green focused
+moonbirds/eyes_i/open-green.png, open green, green open
+moonbirds/eyes_i/relaxed-green.png, relaxed green, green relaxed
+moonbirds/eyes_i/side-eye-green.png, side-eye green, green side-eye
+
+moonbirds/eyes_i/angry-purple.png, angry purple, purple angry
+moonbirds/eyes_i/discerning-purple.png, discerning purple, purple discerning
+moonbirds/eyes_i/focused-purple.png, focused purple, purple focused
+moonbirds/eyes_i/open-purple.png, open purple, purple open
+moonbirds/eyes_i/relaxed-purple.png, relaxed purple, purple relaxed
+moonbirds/eyes_i/side-eye-purple.png, side-eye purple, purple side-eye
+
+moonbirds/eyes_i/angry-red.png, angry red, red angry
+moonbirds/eyes_i/discerning-red.png, discerning red, red discerning
+moonbirds/eyes_i/focused-red.png, focused red, red focused
+moonbirds/eyes_i/open-red.png, open red, red open
+moonbirds/eyes_i/relaxed-red.png, relaxed red, red relaxed
+moonbirds/eyes_i/side-eye-red.png, side-eye red, red side-eye
+
+moonbirds/eyes_i/angry-white.png, angry white, white angry
+moonbirds/eyes_i/discerning-white.png, discerning white, white discerning
+moonbirds/eyes_i/focused-white.png, focused white, white focused
+moonbirds/eyes_i/open-white.png, open white, white open
+moonbirds/eyes_i/relaxed-white.png, relaxed white, white relaxed
+moonbirds/eyes_i/side-eye-white.png, side-eye white, white side-eye
+
+moonbirds/eyes_ii/adorable.png,     adorable, adorable eyes
+moonbirds/eyes_ii/diamonds.png,     diamonds, diamonds eyes
+moonbirds/eyes_ii/fire.png,         fire eyes,      ## note: fire in use already by headwear!!
+moonbirds/eyes_ii/gold.png,         gold,   gold eyes
+moonbirds/eyes_ii/hearts.png,       hearts, hearts eyes
+moonbirds/eyes_ii/moon.png,         moon,   moon eyes
+moonbirds/eyes_ii/plagued.png,      plagued, plagued eyes
+moonbirds/eyes_ii/rainbow.png,      rainbow, rainbow eyes
 
 
+moonbirds/body_bone/eyes-I-ruby_angry.png,       ruby angry,      angry ruby
+moonbirds/body_bone/eyes-I-ruby_discerning.png,  ruby discerning, discerning ruby
+moonbirds/body_bone/eyes-I-ruby_open.png,        ruby open,       open ruby
+moonbirds/body_bone/eyes-I-ruby_relaxed.png,     ruby relaxed,    relaxed ruby
+
+moonbirds/body_bone/eyes-I-skeleton_angry.png,       skeleton angry,      angry skeleton
+moonbirds/body_bone/eyes-I-skeleton_discerning.png,  skeleton discerning, discerning skeleton
+moonbirds/body_bone/eyes-I-skeleton_open.png,        skeleton open,       open skeleton
+moonbirds/body_bone/eyes-I-skeleton_relaxed.png,     skeleton relaxed,    relaxed skeleton
+
+moonbirds/body_metal/eyes-I-robot_angry.png,     robot angry,   angry robot
+moonbirds/body_metal/eyes-I-robot_open.png,      robot open,    open robot
+moonbirds/body_metal/eyes-I-robot_relaxed.png,   robot relaxed, relaxed robot
+
+moonbirds/body_golden/eyes-I-golden_angry.png,    golden angry,    angry golden
+moonbirds/body_golden/eyes-I-golden_open.png,     golden open,     open golden
+moonbirds/body_golden/eyes-I-golden_side-eye.png, golden side-eye, side-eye golden
 
 
 ###############
 #  eyewear
 
-moonbirds/eyewear/3d_glasses.png,            3D Glasses
-moonbirds/eyewear/black-rimmed_glasses.png,  Black-Rimmed Glasses
-moonbirds/eyewear/eyepatch.png,
-moonbirds/eyewear/gazelles.png,
-moonbirds/eyewear/jobs_glasses.png,
-moonbirds/eyewear/rose-colored_glasses.png,
-moonbirds/eyewear/sunglasses.png,
-moonbirds/eyewear/visor.png,
+moonbirds/eyewear/3d_glasses.png
+moonbirds/eyewear/aviators.png,              Aviators, Aviators 1
+moonbirds/eyewear/big_tech.png
+moonbirds/eyewear/black_rimmed-glasses.png
+moonbirds/eyewear/eyepatch.png
+moonbirds/eyewear/gazelles.png
+moonbirds/eyewear/half_moon_specs.png
+moonbirds/eyewear/jobs_glasses.png
+moonbirds/eyewear/monocle.png
+moonbirds/eyewear/rose-colored_glasses.png
+moonbirds/eyewear/sunglasses.png
+moonbirds/eyewear/visor.png
 
-starbirds/eyes/aviators.png,
+moonbirds-generator/eyewear_bonus/big_shades.png
+moonbirds-generator/eyewear_bonus/classic_shades.png
+moonbirds-generator/eyewear_bonus/horned-rim_glasses.png
+moonbirds-generator/eyewear_bonus/small_shades.png
+
+
+starbirds/eyes/aviators.png,   Aviators 2
 starbirds/eyes/chill.png,
 starbirds/eyes/green_shades.png,
 starbirds/eyes/neon_shades.png,
@@ -175,7 +285,7 @@ moonbirds/headwear/bucket_hat.png,
 moonbirds/headwear/captains_cap.png,   Captain's Cap
 moonbirds/headwear/cowboy_hat.png,     Cowboy Hat 1, Cowboy Hat
 moonbirds/headwear/durag.png,
-moonbirds/headwear/flowers.png,
+moonbirds/headwear/flower.png,
 moonbirds/headwear/forest_ranger.png,
 moonbirds/headwear/headband.png,
 moonbirds/headwear/headphones.png,
@@ -188,6 +298,7 @@ moonbirds/headwear/moon_hat.png,
 moonbirds/headwear/pirates_hat.png,    Pirate's Hat
 moonbirds/headwear/queens_crown.png,   Queen's Crown
 moonbirds/headwear/tiara.png
+moonbirds/headwear/space_helmet.png
 moonbirds/headwear/witchs_hat.png,    Witch's Hat
 moonbirds/headwear/wizards_hat.png,    Wizard's Hat
 
@@ -206,10 +317,16 @@ moonbirds/headwear/tiny_crown.png,
 
 # more headwear
 
+moonbirds-generator/headwear_bonus/cap.png
+moonbirds-generator/headwear_bonus/og_beanie.png
+moonbirds-generator/headwear_bonus/police_cap.png
+moonbirds-generator/headwear_bonus/top_hat.png
+
+
 starbirds/head/black_red.png,   Black Red Hat
 starbirds/head/cowboy.png,      Cowboy Hat 2
 starbirds/head/crown.png,
-starbirds/head/gold.png,
+starbirds/head/gold.png,       Gold Hat       ## note: gold already in use by eyes
 starbirds/head/gray_hat.png,
 starbirds/head/blue_bucket.png,
 starbirds/head/red_bucket.png,
@@ -287,9 +404,19 @@ fastfoodmoonbirds/headwear/taco.png,
 ################################
 #  outerwear
 
-moonbirds/outerwear/hoodie.png,        Hoodie
-moonbirds/outerwear/hoodie_down.png,   Hoodie Down
-moonbirds/outerwear/punk_jacket.png,   Punk Jacket
+moonbirds/outerwear/bomber_jacket.png
+moonbirds/outerwear/heros_tunic.png
+moonbirds/outerwear/hoodie.png
+moonbirds/outerwear/hoodie_down.png
+moonbirds/outerwear/jean_jacket.png
+moonbirds/outerwear/punk_jacket.png
+
+moonbirds/outerwear/diamond_necklace.png
+moonbirds/outerwear/gold_chain.png
+
+moonbirds-generator/outerwear_bonus/choker.png
+moonbirds-generator/outerwear_bonus/silver_chain.png
+
 
 starbirds/clothes/blue_hoodie.png,        Blue Hoodie
 starbirds/clothes/green_hoodie.png,       Green Hoodie
