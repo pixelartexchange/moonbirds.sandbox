@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #2",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/2_2.png",
+  "ipfs": "ipfs://QmWWRsR6Phrdq18Sb71fizy4BGtnSazN2TY1mG3U3r7Ziz",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Lemon"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Parakeet"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Viking helmet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glasses"
+    }
+  ]
+}

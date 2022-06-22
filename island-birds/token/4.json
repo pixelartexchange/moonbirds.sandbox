@@ -1,0 +1,29 @@
+{
+  "name": "Treasure Island #4",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/4_4.png",
+  "ipfs": "ipfs://QmQjBEJs7zLTDymGg8BnmHCwYcZuuyA3oRusWWZeypf7Vi",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Cockatoo"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Black bandana"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Happy Pink"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Anchor"
+    }
+  ]
+}

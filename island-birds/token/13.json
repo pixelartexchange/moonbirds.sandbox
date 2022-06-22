@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #13",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/13_13.png",
+  "ipfs": "ipfs://QmfD3E6UujXaXQQoBsoKd2VtEvqgMyNpTtyyYBCVKEKpej",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Finch"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Nounce red"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Sombrero"
+    }
+  ]
+}

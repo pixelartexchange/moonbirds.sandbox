@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #6",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/6_6.png",
+  "ipfs": "ipfs://QmbtT1ETWhW1UqRzH4238e9Ji9r768K2AZZm7LG1XSSV2q",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Cardinal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Adorable"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Blue admiral jacket"
+    }
+  ]
+}

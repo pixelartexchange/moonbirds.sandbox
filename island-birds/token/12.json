@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #12",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/12_12.png",
+  "ipfs": "ipfs://QmYGicYhh6Z619a7rAiDCSH7XLzDH7pu7Xu1rK1nahG58J",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Parakeet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Adorable"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Red admiral jacket"
+    }
+  ]
+}

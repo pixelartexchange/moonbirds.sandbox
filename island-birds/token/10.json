@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #10",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/10_10.png",
+  "ipfs": "ipfs://QmPZv5Q5VpjC48h25ewtuoB2DjwjH34RyT4Mk2Wmoixfrn",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wheat"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Parakeet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Rainblow glasses"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Black admiral jacket"
+    }
+  ]
+}

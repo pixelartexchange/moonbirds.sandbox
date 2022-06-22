@@ -1,0 +1,29 @@
+{
+  "name": "Treasure Island #9",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/9_9.png",
+  "ipfs": "ipfs://QmdQ8vLrmY5B6JMWFmg3iF83qiXFgDpCEJqmmhagzBfTiU",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Plain white"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Parrot"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sus Green"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Starfish"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Golden chain"
+    }
+  ]
+}

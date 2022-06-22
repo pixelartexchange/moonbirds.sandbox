@@ -1,0 +1,29 @@
+{
+  "name": "Treasure Island #1",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/1_1.png",
+  "ipfs": "ipfs://QmfCTe2sfawVdyMYGgQ2i794RMhc3pqeaMy5PRmhMMoYQj",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Plain white"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Macaw"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Orange mohawk"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Heart sunglasses"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Blue admiral jacket"
+    }
+  ]
+}

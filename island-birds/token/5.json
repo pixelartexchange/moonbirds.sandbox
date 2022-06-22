@@ -1,0 +1,29 @@
+{
+  "name": "Treasure Island #5",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/5_5.png",
+  "ipfs": "ipfs://Qmdu8nuuZvZ7HQahJgHLQwxsjMNHjA93m5EggckoxrRx2i",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Beige"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Cockatoo"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Diver helmet"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Rainblow glasses"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Cross"
+    }
+  ]
+}

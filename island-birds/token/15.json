@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #15",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/15_15.png",
+  "ipfs": "ipfs://QmS1CW7mtoQV6Whk2dwD4EgfrAQS4ykC4LSXmfcTFd2MHj",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Toucan"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Sus Green"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Red admiral jacket"
+    }
+  ]
+}

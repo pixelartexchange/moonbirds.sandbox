@@ -1,0 +1,29 @@
+{
+  "name": "Treasure Island #8",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/8_8.png",
+  "ipfs": "ipfs://QmdnBe5nEetWQn1fJ75W5H55LqvmMaENB5ppsjYo3cLfvf",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Cockatoo"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Jellyfish"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Monocle"
+    },
+    {
+      "trait_type": "Outerwear",
+      "value": "Red admiral jacket"
+    }
+  ]
+}

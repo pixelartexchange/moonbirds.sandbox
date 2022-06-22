@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #3",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/3_3.png",
+  "ipfs": "ipfs://QmVhEbWQjQhBSJrW1nDCWon6kioyGDnAEgGZVHaVkvMzkV",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Lime"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Canary"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Strawhat"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue bandana"
+    }
+  ]
+}

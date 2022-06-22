@@ -1,0 +1,21 @@
+{
+  "name": "Treasure Island #14",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/14_14.png",
+  "ipfs": "ipfs://QmZNg1vfW3j12RZE57wdVD8RwJyXDodHsoex5y5EjTXDpR",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Pink"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Macaw"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Regular Green"
+    }
+  ]
+}

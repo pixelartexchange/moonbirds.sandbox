@@ -1,0 +1,25 @@
+{
+  "name": "Treasure Island #7",
+  "description": "Treasure Island",
+  "image": "https://storage.googleapis.com/treasure-island-nft/7_7.png",
+  "ipfs": "ipfs://QmcnBEFYsRSLK9LJQh53JiSGvdRBAvKVABmR8JKwMaMtaD",
+  "external_url": "https://treasureisland.xyz",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Lemon"
+    },
+    {
+      "trait_type": "Base",
+      "value": "Toucan"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Rum bottle"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Rainblow glasses"
+    }
+  ]
+}
