@@ -213,7 +213,7 @@ moonbirds/eyes_ii/adorable.png,     adorable, adorable eyes
 moonbirds/eyes_ii/diamonds.png,     diamonds, diamonds eyes
 moonbirds/eyes_ii/fire.png,         fire eyes,      ## note: fire in use already by headwear!!
 moonbirds/eyes_ii/gold.png,         gold,   gold eyes
-moonbirds/eyes_ii/hearts.png,       hearts, hearts eyes
+moonbirds/eyes_ii/hearts.png,       hearts, heart | hearts eyes
 moonbirds/eyes_ii/moon.png,         moon,   moon eyes
 moonbirds/eyes_ii/plagued.png,      plagued, plagued eyes
 moonbirds/eyes_ii/rainbow.png,      rainbow, rainbow eyes
@@ -247,7 +247,7 @@ moonbirds/eyewear/big_tech.png
 moonbirds/eyewear/black_rimmed-glasses.png
 moonbirds/eyewear/eyepatch.png
 moonbirds/eyewear/gazelles.png
-moonbirds/eyewear/half_moon_specs.png
+moonbirds/eyewear/half_moon_specs.png,   Half-Moon Specs, Half-Moon Spectacles
 moonbirds/eyewear/jobs_glasses.png
 moonbirds/eyewear/monocle.png
 moonbirds/eyewear/rose-colored_glasses.png
