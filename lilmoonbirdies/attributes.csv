@@ -109,24 +109,24 @@ body_metal/body-I-robot.png
 ######################
 #  beak  (+color)
 
-beak/long.png
-beak/short.png
-beak/small.png
+beak/long.png,          long orange
+beak/short.png,         short orange
+beak/small.png,         small orange
 
-body_golden/beak-I-golden-long.png
-body_golden/beak-I-golden-short.png
-body_golden/beak-I-golden-small.png
+body_golden/beak-I-golden-long.png,   long golden
+body_golden/beak-I-golden-short.png,  short golden
+body_golden/beak-I-golden-small.png,  small golden
 
-body_bone/beak-I-ruby-long.png
-body_bone/beak-I-ruby-short.png
-body_bone/beak-I-ruby-small.png
-body_bone/beak-I-skeleton-long.png
-body_bone/beak-I-skeleton-short.png
-body_bone/beak-I-skeleton-small.png
+body_bone/beak-I-ruby-long.png,       long ruby
+body_bone/beak-I-ruby-short.png,      short ruby
+body_bone/beak-I-ruby-small.png,      small ruby
+body_bone/beak-I-skeleton-long.png,   long skeleton
+body_bone/beak-I-skeleton-short.png,  short skeleton
+body_bone/beak-I-skeleton-small.png,  small skeleton
 
-body_metal/beak-I-robot-long.png
-body_metal/beak-I-robot-short.png
-body_metal/beak-I-robot-small.png
+body_metal/beak-I-robot-long.png,     long robot
+body_metal/beak-I-robot-short.png,    short robot
+body_metal/beak-I-robot-small.png,    small robot
 
 
 #########################
@@ -169,7 +169,7 @@ eyes_i/side_eye-white.png
 eyes_i/side_eye-yellow.png
 
 eyes_ii/adorable.png
-eyes_ii/diamond.png
+eyes_ii/diamonds.png
 eyes_ii/moon.png
 eyes_ii/rainbow.png
 
