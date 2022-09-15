@@ -5,6 +5,20 @@ Scripts, (token) metadata, images & more
 
 
 
+
+## Breaking News
+
+
+[**Proof's Moonbirds Token Images Officialy Declared Public Domain (No Rights Reserved) under Creative Commons Zero (CC0) Dedication by Kevin Rose (Chief of Proof) - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/who4wm/breaking_news_proofs_moonbirds_token_images/)
+
+
+[**The Phunk and Artist known as Skull Cat Publishes All 100+ Attributes (24×24px w/ Transparent Background) For the Burds a.k.a. Lil' (Moon) Birds Collection For Free (Re)Use - Thank You!**](https://old.reddit.com/r/DIYPunkArt/comments/w8ift8/the_phunk_and_artist_known_as_skull_cat_publishes/)
+
+
+
+
+
+
 ## Collections - What's News?
 
 **24x24px Lil' Moonbirdies** - 10 000 max. <br>
