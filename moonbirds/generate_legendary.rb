@@ -1,5 +1,5 @@
 #################
-#  generate legegendary moonbirds
+#  generate legendary moonbirds
 #    using the official 42x42px attributes
 
 require 'pixelart'
