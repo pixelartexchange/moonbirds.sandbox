@@ -16,4 +16,10 @@ token-i/
 ###
 # more files to exclude
 unshuffled.json
+traits.json
+
+
+###
+# exclude all dbs
+*.db
 
