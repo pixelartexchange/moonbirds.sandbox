@@ -115,7 +115,7 @@ recs.each_with_index do |rec,i|
 
   bird.zoom(8).save( "./tmp2/moonbird#{i}@8x.png")
 
-  break if i > 10
+  ## break if i > 10
 end
 
 
