@@ -3,7 +3,7 @@
 #    using the official 42x42px attributes and metadata
 #
 #   to run use:
-#    $ ruby moonbirds/generate_official.rb
+#    $ ruby moonbirds-official/generate_10000.rb
 
 
 
@@ -20,7 +20,7 @@ end
 
 ## build attributes lookup hash table with all images
 
-recs = read_csv( "./moonbirds/official_attributes.csv" )
+recs = read_csv( "./moonbirds-official/attributes.csv" )
 puts "  #{recs.size} attribute record(s)"
 
 ATTRIBUTES = {}
@@ -47,16 +47,16 @@ recs.each do |rec|
 
    ATTRIBUTES[ slug ] = { count: 0,
                           path:  path,
-                          image: Image.read( "./moonbirds/attributes-official/#{path}" )
+                          image: Image.read( "./moonbirds-official/attributes/#{path}" )
                         }
 end
 
 
 BACKGROUNDS = {
   ## gradients
-  'cosmicpurple'      => Image.read( './moonbirds/attributes-official/gradients/cosmic.png' ),
-  'enlightenedpurple' => Image.read( './moonbirds/attributes-official/gradients/enlightened.png' ),
-  'jadegreen'         => Image.read( './moonbirds/attributes-official/gradients/jade.png' ),
+  'cosmicpurple'      => Image.read( './moonbirds-official/attributes/gradients/cosmic.png' ),
+  'enlightenedpurple' => Image.read( './moonbirds-official/attributes/gradients/enlightened.png' ),
+  'jadegreen'         => Image.read( './moonbirds-official/attributes/gradients/jade.png' ),
   ## solid colors
   'glitchred'  => Image.new( 42, 42, '#ff0000' ),
   'green'      => Image.new( 42, 42, '#95DBAE' ),
@@ -72,7 +72,7 @@ BACKGROUNDS = {
 
 ## generate all 10 000 moonbirds from text attributes
 
-recs = read_csv( './moonbirds/official.csv')
+recs = read_csv( './moonbirds-official/moonbirds.csv')
 puts "  #{recs.size} moonbird record(s)"
 
 recs.each_with_index do |rec,i|

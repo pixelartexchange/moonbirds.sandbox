@@ -4,7 +4,7 @@
 
 
 
-root_dir = "./moonbirds/attributes-official"
+root_dir = "./moonbirds-official/attributes"
 
 subdirs = Dir.glob( "#{root_dir}/*" ).select { |path| File.directory?( path ) }
 pp subdirs

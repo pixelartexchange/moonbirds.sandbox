@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby moonbirds/official_convert.rb
+#   $ ruby moonbirds-official/convert_metadata.rb
 #
 #
 #   convert traits.json
@@ -71,7 +71,7 @@ def convert_traits( data )
 end
 
 
-data = read_json( './moonbirds/traits.json' )
+data = read_json( './moonbirds-official/traits.json' )
 puts " #{data.size} record(s)"
 
 
@@ -117,7 +117,7 @@ headers = [ 'id',
 
 ### save to official.csv
 
-File.open( './tmp/official.csv', 'w:utf-8') do |f|
+File.open( './tmp/moonbirds.csv', 'w:utf-8') do |f|
    f.write( headers.join( ', ' ))
    f.write( "\n" )
    recs.each do |rec|
