@@ -72,6 +72,10 @@ BACKGROUNDS = {
 
 ## generate all 10 000 moonbirds from text attributes
 
+birds = ImageComposite.new( 100, 100, width: 42,
+                                      height: 42)
+
+
 recs = read_csv( './moonbirds-official/moonbirds.csv')
 puts "  #{recs.size} moonbird record(s)"
 
@@ -112,12 +116,15 @@ recs.each_with_index do |rec,i|
   background = slugify( rec['background'] )
   bird = bird.background( BACKGROUNDS[ background ] )
 
+  ## bird.zoom(8).save( "./tmp2/moonbird#{i}@8x.png")
+  birds << bird
 
-  bird.zoom(8).save( "./tmp2/moonbird#{i}@8x.png")
 
   ## break if i > 10
 end
 
+
+birds.save( "./tmp2/moonbirds.png" )
 
 
 ## check for (and report) unused attributes
@@ -130,3 +137,41 @@ end
 
 
 puts "bye"
+
+
+
+__END__
+
+unused attributes reported:
+
+warn: unused attribute - longruby => beak/long-ruby.png
+warn: unused attribute - shortruby => beak/short-ruby.png
+warn: unused attribute - shortjade => beak/short_(jade).png
+warn: unused attribute - adorableruby => eyes/adorable-ruby.png
+warn: unused attribute - angryruby => eyes/angry-ruby.png
+warn: unused attribute - fireruby => eyes/fire-ruby.png
+warn: unused attribute - openadorable => eyes/open-adorable.png
+warn: unused attribute - opendiamond => eyes/open-diamond.png
+warn: unused attribute - openenchanted => eyes/open-enchanted.png
+warn: unused attribute - openfire => eyes/open-fire.png
+warn: unused attribute - openmoon => eyes/open-moon.png
+warn: unused attribute - openrainbow => eyes/open-rainbow.png
+warn: unused attribute - openruby => eyes/open-ruby.png
+warn: unused attribute - relaxedruby => eyes/relaxed-ruby.png
+warn: unused attribute - relaxedenlightened => eyes-legendary/relaxed_(enlightened).png
+warn: unused attribute - relaxedjade => eyes-legendary/relaxed_(jade).png
+warn: unused attribute - monoclejade => eyewear-legendary/monocle_(jade).png
+warn: unused attribute - visorjade => eyewear-legendary/visor_(jade).png
+warn: unused attribute - crescenttalismanjade => headwear-legendary/crescent_talisman_(jade).png
+warn: unused attribute - dancingflameenlightened => headwear-legendary/dancing_flame_(enlightened).png
+warn: unused attribute - dancingflamejade => headwear-legendary/dancing_flame_(jade).png
+warn: unused attribute - diamondjade => headwear-legendary/diamond_(jade).png
+warn: unused attribute - haloenlightened => headwear-legendary/halo_(enlightened).png
+warn: unused attribute - halojade => headwear-legendary/halo_(jade).png
+warn: unused attribute - mohawkjade => headwear-legendary/mohawk_(jade).png
+warn: unused attribute - parliamentmaskjade => headwear-legendary/parliament_mask_(jade).png
+warn: unused attribute - skullyjade => headwear-legendary/skully_(jade).png
+warn: unused attribute - tinycrownenlightened => headwear-legendary/tiny_crown_(enlightened).png
+warn: unused attribute - tinycrownjade => headwear-legendary/tiny_crown_(jade).png
+warn: unused attribute - unicornhornjade => headwear-legendary/unicorn_horn_(jade).png
+warn: unused attribute - wizardshatjade => headwear-legendary/wizards_hat_(jade).png
