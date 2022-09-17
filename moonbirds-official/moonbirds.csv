@@ -118,7 +118,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 116, Owl, Crescent, Red, Small - Gray, Fire - Epic, , Durag, Bomber Jacket, Purple
 117, Owl, Sage, White, Short - Orange, Heart - Epic, , Halo, , Green
 118, Owl, Crescent, Purple, Small - Gray, Discerning - White, Eyepatch, , , Yellow
-119, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Rubber Duck, , Blue
+119, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Rubber Duck, , Blue
 120, Owl, Crescent, Purple, Long - Orange, Angry - White, , Lincoln, , Pink
 121, Owl, Stark, Purple, Short - Orange, Relaxed - Gray, , , , Purple
 122, Owl, Tranquil, Red, Short - Orange, Fire - Epic, , , , Blue
@@ -495,7 +495,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 493, Owl, Tranquil, Blue, Short - Orange, Discerning - Green, , , , Yellow
 494, Owl, Tranquil, White, Short - Orange, , 3D Glasses, , , Green
 495, Owl, Tranquil, Pink, Short - Orange, Discerning - Green, , , Punk Jacket, Gray
-496, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, Eyepatch, Beanie, , Yellow
+496, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, Eyepatch, Beanie, , Yellow
 497, Owl, Stark, Blue, Short - Gray, Side-eye - Blue, , Lincoln, , Pink
 498, Owl, Crescent, Brown, Long - Gray, Open - Yellow, , Bucket Hat, , Pink
 499, Owl, Crescent, Purple, Long - Gray, Open - Yellow, , , , Gray
@@ -571,7 +571,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 569, Owl, Crescent, Blue, Short - Gray, Side-eye - White, , Mohawk (Pink), Diamond Necklace, Green
 570, Owl, Guardian, Black, Small - Orange, Angry - Purple, , , , Pink
 571, Owl, Tabby, Red, Small - Orange, Angry - Blue, , , Gold Chain, Purple
-572, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Pirate's Hat, , Yellow
+572, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Pirate's Hat, , Yellow
 573, Owl, Stark, Black, Long - Gray, Open - Red, , Space Helmet, , Purple
 574, Owl, Brave, Gray, Short - Gray, Relaxed - Gray, , Bandana, , Pink
 575, Owl, Emperor, Gray, Short - Orange, Open - Green, , , , Pink
@@ -971,7 +971,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 969, Owl, Tranquil, Pink, Small - Orange, Open - Gray, , Mohawk (Green), , Gray
 970, Owl, Stark, Blue, Small - Gray, Side-eye - White, , Mohawk (Green), , Pink
 971, Owl, Stark, Red, Small - Gray, Open - White, , , Punk Jacket, Gray
-972, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Epic, , Bow, , Green
+972, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Skeleton, , Bow, , Green
 973, Owl, Crescent, Pink, Small - Gray, Side-eye - Blue, , Bucket Hat, Diamond Necklace, Gray
 974, , Cosmic, Legendary Emperor, Small (Cosmic), Open (Cosmic), , , , Cosmic Purple
 975, Owl, Brave, Brown, Small - Gray, Relaxed - Purple, , Dancing Flame, , Pink
@@ -1171,7 +1171,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 1169, Owl, Brave, Blue, Short - Gray, Heart - Epic, , , , Purple
 1170, Owl, Tabby, Pink, Small - Gray, Open - Purple, Half-moon Spectacles, Bandana, , Yellow
 1171, Owl, Tranquil, Brown, Small - Gray, , Black-rimmed Glasses, , Hoodie Down, Green
-1172, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Epic, , Beanie, , Yellow
+1172, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Skeleton, , Beanie, , Yellow
 1173, Owl, Guardian, Purple, Small - Gray, Open - Blue, , Bandana, Punk Jacket, Yellow
 1174, Owl, Crescent, Brown, Small - Orange, Relaxed - White, , Captain's Cap, Jean Jacket, Purple
 1175, Owl, Brave, White, Long - Orange, Relaxed - Blue, , , Punk Jacket, Pink
@@ -1591,7 +1591,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 1589, Owl, Tabby, Pink, Short - Orange, Discerning - Gray, , Pirate's Hat, , Gray
 1590, Owl, Crescent, Red, Small - Orange, Angry - Gray, , Skully, , Green
 1591, Owl, Brave, Red, Short - Gray, Discerning - Red, , Grail, Diamond Necklace, Purple
-1592, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Chromie, , Green
+1592, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Chromie, , Green
 1593, Owl, Tranquil, Pink, Small - Gray, Side-eye - Blue, , Headband, , Pink
 1594, Owl, Crescent, Purple, Small - Orange, Side-eye - Blue, , Witch's Hat, Jean Jacket, Green
 1595, Owl, Tranquil, Gray, Short - Gray, Open - Green, , Skully, , Yellow
@@ -1637,7 +1637,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 1635, , Golden, Legendary Professor, Small - Golden, Open - Golden, Big Tech, , , Pink
 1636, Owl, Guardian, Pink, Small - Gray, , Rose-Colored Glasses, Space Helmet, , Green
 1637, Owl, Tabby, Gray, Short - Orange, Relaxed - Gray, , Tiny Crown, Bomber Jacket, Purple
-1638, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Backwards Hat, , Blue
+1638, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Backwards Hat, , Blue
 1639, Owl, Stark, Gray, Short - Gray, Discerning - White, , Headphones, , Yellow
 1640, Owl, Tabby, Red, Short - Orange, Side-eye - White, , Forest Ranger, , Purple
 1641, Owl, Crescent, Gray, Small - Orange, Discerning - Blue, , Moon Hat, Gold Chain, Gray
@@ -1802,7 +1802,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 1800, Owl, Guardian, Black, Short - Orange, Angry - Gray, , , , Green
 1801, Owl, Tabby, Black, Long - Orange, Side-eye - Red, , Bandana, , Gray
 1802, Owl, Tabby, Black, Small - Gray, Angry - Green, , , , Green
-1803, Skeleton, Skeleton, Bone, Short - Skeleton, Fire - Epic, Eyepatch, Wizard's Hat, , Green
+1803, Skeleton, Skeleton, Bone, Short - Skeleton, Fire - Skeleton, Eyepatch, Wizard's Hat, , Green
 1804, Owl, Crescent, Red, Small - Gray, Relaxed - White, , , Hoodie, Gray
 1805, Owl, Crescent, Purple, Short - Orange, Relaxed - Red, Monocle, , , Yellow
 1806, Owl, Sage, Brown, Small - Gray, Side-eye - Purple, , Mohawk (Pink), , Blue
@@ -2507,7 +2507,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 2505, Owl, Tabby, Pink, Short - Orange, , Sunglasses, Fire, , Purple
 2506, Owl, Stark, Brown, Long - Gray, Side-eye - Blue, , Moon Hat, Diamond Necklace, Pink
 2507, Owl, Stark, Pink, Small - Gray, Discerning - Blue, , Tiara, , Yellow
-2508, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Epic, , Halo, , Gray
+2508, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Skeleton, , Halo, , Gray
 2509, Owl, Tabby, Blue, Short - Gray, Side-eye - White, , Fire, , Green
 2510, Owl, Crescent, Purple, Short - Orange, Discerning - Red, , , , Blue
 2511, Owl, Tranquil, Red, Short - Orange, Side-eye - White, , Bow, , Yellow
@@ -2693,7 +2693,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 2691, Owl, Crescent, Red, Short - Orange, Open - Purple, , Pirate's Hat, , Green
 2692, Owl, Brave, Brown, Short - Orange, Diamond - Epic, , , , Pink
 2693, Owl, Tabby, Brown, Short - Orange, Relaxed - Blue, , Raincloud, Gold Chain, Yellow
-2694, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Epic, , Wizard's Hat, , Gray
+2694, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Skeleton, , Wizard's Hat, , Gray
 2695, Owl, Crescent, Brown, Small - Orange, Rainbow - Epic, , Mohawk (Green), , Pink
 2696, Owl, Guardian, Gray, Small - Orange, Angry - Purple, , , , Purple
 2697, Owl, Stark, Gray, Short - Orange, Open - Gray, , Captain's Cap, , Yellow
@@ -3055,7 +3055,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 3053, Owl, Crescent, Black, Small - Gray, Open - Purple, , Crescent Talisman, , Pink
 3054, Owl, Crescent, Purple, Short - Gray, Angry - Red, , , Bomber Jacket, Pink
 3055, Skeleton, Skeleton, Bone, Long - Skeleton, , Aviators, Diamond, , Green
-3056, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Epic, , Grail, , Yellow
+3056, , Ruby Skeleton, Legendary Bone, Small - Ruby, Adorable - Skeleton, , Grail, , Yellow
 3057, Owl, Sage, Gray, Short - Gray, Open - White, , , , Purple
 3058, Owl, Stark, Blue, Small - Orange, Angry - Blue, , Bandana, , Gray
 3059, Owl, Crescent, Gray, Small - Orange, Open - Yellow, , Hero's Cap, Hero's Tunic, Yellow
@@ -3174,7 +3174,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 3172, Owl, Crescent, Gray, Short - Orange, Open - Gray, , Bucket Hat, , Purple
 3173, Owl, Stark, Gray, Short - Orange, , Black-rimmed Glasses, Backwards Hat, , Purple
 3174, Owl, Emperor, Blue, Short - Gray, Discerning - Blue, , Crescent Talisman, , Pink
-3175, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, Eyepatch, Halo, , Blue
+3175, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, Eyepatch, Halo, , Blue
 3176, Owl, Professor, Purple, Small - Orange, Discerning - Blue, , Skully, , Yellow
 3177, Owl, Tranquil, Blue, Small - Orange, , 3D Glasses, , , Gray
 3178, Owl, Stark, White, Short - Gray, Side-eye - White, , Halo, , Blue
@@ -5254,7 +5254,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 5252, Owl, Crescent, Red, Small - Orange, Discerning - Red, , Skully, , Blue
 5253, Owl, Crescent, Brown, Short - Gray, Discerning - Yellow, , Moon Hat, , Gray
 5254, Owl, Tranquil, Gray, Short - Orange, Angry - Gray, , Headphones, , Pink
-5255, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Tiny Crown, , Purple
+5255, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Tiny Crown, , Purple
 5256, Owl, Tabby, Green, Short - Orange, Side-eye - Gray, , , Bomber Jacket, Yellow
 5257, Owl, Tranquil, Pink, Short - Orange, , Sunglasses, , , Pink
 5258, Owl, Professor, Red, Short - Orange, Open - Green, , Skully, , Pink
@@ -5557,7 +5557,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 5555, Owl, Crescent, White, Short - Gray, Moon - Epic, , Beanie, , Green
 5556, Owl, Professor, Black, Short - Gray, Angry - Purple, , , , Pink
 5557, Owl, Crescent, Brown, Short - Orange, Discerning - Red, , Headphones, , Yellow
-5558, Skeleton, Skeleton, Bone, Small - Skeleton, Adorable - Epic, , Lincoln, , Green
+5558, Skeleton, Skeleton, Bone, Small - Skeleton, Adorable - Skeleton, , Lincoln, , Green
 5559, Owl, Crescent, White, Small - Gray, Relaxed - Red, , Mohawk (Pink), , Gray
 5560, Owl, Stark, Brown, Small - Orange, Adorable - Epic, , Mohawk (Green), , Purple
 5561, Owl, Crescent, Brown, Short - Gray, Discerning - Blue, , Skully, , Green
@@ -7074,7 +7074,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 7072, Owl, Guardian, Purple, Small - Orange, Rainbow - Epic, , Queen's Crown, , Purple
 7073, Owl, Crescent, Purple, Short - Orange, Side-eye - Red, , Bucket Hat, , Purple
 7074, Owl, Crescent, Red, Small - Orange, Side-eye - Yellow, , Bow, , Purple
-7075, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Epic, , Mohawk (Green), , Yellow
+7075, Skeleton, Skeleton, Bone, Short - Skeleton, Adorable - Skeleton, , Mohawk (Green), , Yellow
 7076, Owl, Tabby, Red, Long - Orange, Fire - Epic, , Skully, , Green
 7077, Owl, Tranquil, Brown, Small - Gray, , Gazelles, Bandana, , Yellow
 7078, Owl, Tranquil, Red, Short - Gray, Side-eye - Red, , Headphones, , Pink
@@ -7130,7 +7130,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 7128, Owl, Stark, Gray, Long - Orange, Angry - White, , Queen's Crown, , Green
 7129, Owl, Crescent, Red, Small - Orange, Moon - Epic, Monocle, Tiny Crown, , Pink
 7130, Owl, Crescent, Black, Small - Gray, Discerning - White, , Wizard's Hat, , Purple
-7131, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Epic, , Bandana, , Purple
+7131, Skeleton, Skeleton, Bone, Long - Skeleton, Fire - Skeleton, , Bandana, , Purple
 7132, Skeleton, Skeleton, Bone, Short - Skeleton, , Aviators, Dancing Flame, , Gray
 7133, Owl, Crescent, Red, Short - Gray, Open - Purple, , Crescent Talisman, , Purple
 7134, Owl, Stark, Red, Short - Orange, Diamond - Epic, , Moon Hat, , Green
@@ -7422,7 +7422,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 7420, Owl, Stark, Gray, Short - Gray, Relaxed - Purple, , Moon Hat, , Yellow
 7421, Owl, Tabby, Black, Long - Gray, Discerning - Gray, , , , Purple
 7422, Owl, Emperor, Purple, Small - Gray, Open - Yellow, , , , Yellow
-7423, Skeleton, Skeleton, Bone, Small - Skeleton, Fire - Epic, Eyepatch, Diamond, , Green
+7423, Skeleton, Skeleton, Bone, Small - Skeleton, Fire - Skeleton, Eyepatch, Diamond, , Green
 7424, Owl, Crescent, Black, Long - Gray, Discerning - White, , Fire, Jean Jacket, Pink
 7425, Owl, Crescent, Gray, Short - Orange, Open - Red, , Mohawk (Pink), , Yellow
 7426, Owl, Tabby, Purple, Long - Orange, Relaxed - White, , Raincloud, , Purple
@@ -8514,7 +8514,7 @@ id, specie, body, feathers, beak, eyes, eyewear, headwear, outerwear, background
 8512, Skeleton, Skeleton, Bone, Short - Skeleton, , Sunglasses, Moon Hat, , Purple
 8513, Owl, Sage, Brown, Short - Orange, Open - Green, , , , Yellow
 8514, Owl, Stark, Black, Small - Gray, , Aviators, Lincoln, , Gray
-8515, Skeleton, Skeleton, Bone, Long - Skeleton, Adorable - Epic, , Halo, , Yellow
+8515, Skeleton, Skeleton, Bone, Long - Skeleton, Adorable - Skeleton, , Halo, , Yellow
 8516, Owl, Crescent, Red, Short - Gray, Relaxed - Gray, , Headband, , Yellow
 8517, Owl, Crescent, Blue, Long - Orange, , Gazelles, Grail, , Purple
 8518, Owl, Crescent, Purple, Short - Gray, Relaxed - White, , Moon Hat, Hoodie Down, Purple

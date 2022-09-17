@@ -82,6 +82,27 @@ recs = []
 data.each_with_index do |h,i|
   traits = convert_traits( h )
 
+ ##
+ ## quick fixes for metadata:
+ ##  if  body = Skeleton | Ruby Skeleton
+ ##   change eyes  Adorable - Epic  to   Adorable - Skeleton !!!
+ ##                Fire - Epic      to   Fire - Skeleton !!!
+
+  if ['Skeleton', 'Ruby Skeleton'].include?( traits['Body'] )
+     if traits['Eyes']
+       traits['Eyes'] = 'Adorable - Skeleton'  if traits['Eyes'] == 'Adorable - Epic'
+       traits['Eyes'] = 'Fire - Skeleton'      if traits['Eyes'] == 'Fire - Epic'
+
+       ## check that eyes include always skeleton qualifier!
+       if traits['Eyes'].index( 'Skeleton').nil?
+          puts "!! ERROR - (ruby) sekeleton moonbird eyes without skeleton qualifier!!:"
+          pp traits
+          exit 1
+       end
+     end
+  end
+
+
   recs << [
     i.to_s,
     traits['Specie'],
