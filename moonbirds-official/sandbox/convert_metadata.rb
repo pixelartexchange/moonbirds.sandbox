@@ -1,6 +1,6 @@
 #####
 # to run use:
-#   $ ruby moonbirds-official/convert_metadata.rb
+#   $ ruby moonbirds-official/sandbox/convert_metadata.rb
 #
 #
 #   convert traits.json
