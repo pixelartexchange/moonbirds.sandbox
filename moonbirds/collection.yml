@@ -6,8 +6,11 @@ token_base: https://live---metadata-5covpqijaa-uc.a.run.app/metadata/{id}
 format:     42x42
 source:     1008x1008
 
-
-opensea:     proof-moonbirds
-etherscan:   0x23581767a106ae21c074b2276d25e5c3e136a68b
 web:         https://www.moonbirds.xyz
 twitter:     moonbirds
+
+
+opensea:     proof-moonbirds
+
+token:
+  contract:   "0x23581767a106ae21c074b2276d25e5c3e136a68b"

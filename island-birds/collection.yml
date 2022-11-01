@@ -1,0 +1,29 @@
+##
+# see  https://treasureisland.xyz/
+#      https://twitter.com/islandbirds_xyz
+
+
+## only first fifteen available for now (June 22th 2022)
+##   (only if minted) check back later
+
+slug:    island-birds
+count:   6942
+token_base: https://birds-app1.herokuapp.com/metadata/{id}
+   ## note: api no longer functional???
+image_base: https://storage.googleapis.com/treasure-island-nft/{id}_{id}.png
+format: 40x40
+source: 800x800
+offset: 1
+
+
+####
+#      https://opensea.io/collection/island-birds
+opensea: island-birds
+
+#########
+# was ??     https://etherscan.io/address/0xf44d6e2df318af47641dbdacff8583ab411dcbdd#code
+#  new contract ?
+#    https://etherscan.io/address/0xa36054c85c7055d3315432e9cbed617a68d08ad6
+token:
+  contract: "0xa36054c85c7055d3315432e9cbed617a68d08ad6"
+
